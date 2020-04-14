@@ -1,0 +1,175 @@
+﻿/*CSS cho thanh menu*/
+.menu {
+    overflow-y: auto;
+}
+
+    .menu .menu-item {
+        display: flex;
+        width: 100%;
+        height: 40px;
+        border-bottom: 1px solid #016087;
+        border-top: 1px solid #038ac1;
+        justify-items: center;
+        cursor: pointer;
+    }
+
+        .menu .menu-item:hover {
+            background-color: #eb7728;
+        }
+
+        .menu .menu-item .menu-item-icon {
+            width: 24px;
+            height: 24px;
+            align-self: center;
+            background-image: url('/Contents/images/iconMenu.png');
+            margin: 8px;
+        }
+
+        .menu .menu-item .menu-item-text {
+            align-self: center;
+            color: #fff;
+        }
+
+    .menu.menu-parent-first {
+        border-top: 1px solid #016087;
+    }
+
+.item-icon-index {
+    background-position: 0px 532px;
+}
+
+.item-icon-report {
+    background-position: 0 342px;
+}
+
+.item-icon-purchase {
+    background-position: 0 159px;
+}
+
+.item-icon-stock {
+    background-position: 0 495px;
+}
+
+.item-icon-frmCAList {
+    background-position: 0 454px;
+}
+
+.item-icon-5food {
+    background-image: url('/Contents/images/5food.png') !important;
+    background-repeat: no-repeat
+}
+
+.item-icon-discount {
+    background-position: 0 416px
+}
+
+.item-icon-frmSafeList {
+    background-position: 0 36px
+}
+
+.item-icon-frmSAInvoiceRequestList {
+    background-position: 0 77px
+}
+
+.item-icon-frmBAList {
+    background-position: 2px 1px;
+    background-image: url('/Contents/images/icon-deposit.png') !important;
+    background-repeat: no-repeat;
+    margin-left: 11px
+}
+
+.item-icon-frmCostList {
+    background-position: 0 1px;
+    background-image: url('/Contents/images/icon-cost.png') !important;
+    background-repeat: no-repeat;
+    margin-left: 11px
+}
+
+.item-icon-menufood {
+    background-position: 0 1px;
+    background-image: url('/Contents/images/vector-smart-object.png') !important;
+    background-repeat: no-repeat;
+    margin-left: 11px
+}
+
+.item-icon-cancelinvoice {
+    background-position: 0 1px;
+    background-image: url('/Contents/images/cancel-invoice.png') !important;
+    background-repeat: no-repeat;
+    margin-left: 11px
+}
+
+.item-icon-frmDepositList {
+    background-position: 0 1px;
+    background-image: url('/Contents/images/icon-deposit.png') !important;
+    background-repeat: no-repeat;
+    margin-left: 11px
+}
+
+.item-icon-report {
+    background-position: 0 342px
+}
+
+.item-icon-dictionary {
+    background-position: 0 380px
+}
+
+.item-icon-ahamove {
+    background-position: 0 1px;
+    background-image: url('/Contents/images/ahamove/icon/ic_GH.svg') !important;
+    background-repeat: no-repeat;
+    margin-left: 11px;
+}
+
+.item-icon-SMSMarketing {
+    background-position: 4px 1px;
+    background-image: url('/Contents/images/SMS_Menu.svg') !important;
+    background-repeat: no-repeat;
+    margin-left: 11px;
+}
+
+.item-icon-meinvoice {
+    background-image: url('/Contents/images/ic_hoadon.png') !important;
+    background-repeat: no-repeat;
+    margin-left: 11px;
+    background-size: contain;
+    background-position: 0 center;
+}
+
+.item-icon-setting {
+    background-position: 0 301px
+}
+
+.item-icon-subscriber {
+    width: 24px;
+    height: 20px;
+    background-image: url('/Contents/images/icon-subscriber.png') !important;
+    background-repeat: no-repeat;
+}
+
+.item-icon-help {
+    background-image: url('/Contents/images/iconHelp.png') !important;
+    background-repeat: no-repeat;
+}
+
+/*Tùy chỉnh scrollbar*/
+.menu::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 2px;
+    background-color: #ccc;
+    opacity: .5;
+}
+
+.menu::-webkit-scrollbar {
+    width: 4px;
+    background-color: #212020;
+    margin-top: 100px;
+    opacity: .5;
+}
+
+.menu::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+    opacity: .5;
+}

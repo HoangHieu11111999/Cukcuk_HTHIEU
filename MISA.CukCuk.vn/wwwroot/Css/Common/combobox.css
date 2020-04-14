@@ -1,0 +1,71 @@
+﻿/*Trigger bount list*/
+.combobox.triggerWrap {
+    border: 1px solid #ccc;
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.triggerWrap input {
+    border: none;
+    width: 100%;
+}
+
+/*.triggerWrap:focus-within {
+    border: 1px solid #0071c1;
+}*/
+
+/*.triggerWrap:focus-within > .trigger-bountlist-box {
+        display: block;
+    }*/
+
+.triggerWrap .trigger-btn:target + .trigger-bountlist-box {
+    display: block;
+}
+
+.triggerWrap .trigger-bountlist-box {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    box-shadow: rgb(136, 136, 136) 0px 0px 6px;
+    top: calc(100% + 1px);
+    width: 100%;
+}
+
+.triggerWrap .text-triggerWrap {
+    padding: 3px 5px 3px;
+}
+
+.triggerWrap button, .triggerWrap .trigger-btn {
+    position: relative;
+    width: 22px;
+    right: 0;
+    background-color: #fff;
+    border-radius: unset;
+    background-image: url('/Contents/images/form/trigger.png');
+    background-repeat: no-repeat;
+    border: none;
+    background-position: center;
+}
+
+    .triggerWrap button:focus {
+        outline:none !important;
+        /*pointer-events: none;*/
+    }
+
+.triggerWrap .trigger-bountlist-box .trigger-bountlist-item {
+    padding: 0 6px;
+    line-height: 22px;
+    cursor: pointer;
+    text-align: left;
+    background-color: #fff;
+}
+
+    .triggerWrap .trigger-bountlist-box .trigger-bountlist-item:hover {
+        background-color: #d6e8f6;
+    }
+
+.triggerWrap .trigger-bountlist-box .bountlist-selected {
+    background: #c1ddf1;
+}

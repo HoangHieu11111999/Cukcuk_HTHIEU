@@ -1,0 +1,32 @@
+C:\Users\hthieu\Source\Workspaces\MISA.Web2019C11\MemberSourceCode\hthieu\source\repos\Common\bin\Debug\netcoreapp3.0\Common.deps.json
+C:\Users\hthieu\Source\Workspaces\MISA.Web2019C11\MemberSourceCode\hthieu\source\repos\Common\bin\Debug\netcoreapp3.0\Common.dll
+C:\Users\hthieu\Source\Workspaces\MISA.Web2019C11\MemberSourceCode\hthieu\source\repos\Common\bin\Debug\netcoreapp3.0\Common.pdb
+C:\Users\hthieu\Source\Workspaces\MISA.Web2019C11\MemberSourceCode\hthieu\source\repos\Common\obj\Debug\netcoreapp3.0\Common.csprojAssemblyReference.cache
+C:\Users\hthieu\Source\Workspaces\MISA.Web2019C11\MemberSourceCode\hthieu\source\repos\Common\obj\Debug\netcoreapp3.0\Common.AssemblyInfoInputs.cache
+C:\Users\hthieu\Source\Workspaces\MISA.Web2019C11\MemberSourceCode\hthieu\source\repos\Common\obj\Debug\netcoreapp3.0\Common.AssemblyInfo.cs
+C:\Users\hthieu\Source\Workspaces\MISA.Web2019C11\MemberSourceCode\hthieu\source\repos\Common\obj\Debug\netcoreapp3.0\Common.dll
+C:\Users\hthieu\Source\Workspaces\MISA.Web2019C11\MemberSourceCode\hthieu\source\repos\Common\obj\Debug\netcoreapp3.0\Common.pdb
+E:\repos\Common\bin\Debug\netcoreapp3.0\Common.deps.json
+E:\repos\Common\bin\Debug\netcoreapp3.0\Common.dll
+E:\repos\Common\bin\Debug\netcoreapp3.0\Common.pdb
+E:\repos\Common\obj\Debug\netcoreapp3.0\Common.csprojAssemblyReference.cache
+E:\repos\Common\obj\Debug\netcoreapp3.0\Common.AssemblyInfoInputs.cache
+E:\repos\Common\obj\Debug\netcoreapp3.0\Common.AssemblyInfo.cs
+E:\repos\Common\obj\Debug\netcoreapp3.0\Common.dll
+E:\repos\Common\obj\Debug\netcoreapp3.0\Common.pdb
+C:\Users\PC_KIEN\Desktop\repos\Common\bin\Debug\netcoreapp3.0\Common.deps.json
+C:\Users\PC_KIEN\Desktop\repos\Common\bin\Debug\netcoreapp3.0\Common.dll
+C:\Users\PC_KIEN\Desktop\repos\Common\bin\Debug\netcoreapp3.0\Common.pdb
+C:\Users\PC_KIEN\Desktop\repos\Common\obj\Debug\netcoreapp3.0\Common.csprojAssemblyReference.cache
+C:\Users\PC_KIEN\Desktop\repos\Common\obj\Debug\netcoreapp3.0\Common.AssemblyInfoInputs.cache
+C:\Users\PC_KIEN\Desktop\repos\Common\obj\Debug\netcoreapp3.0\Common.AssemblyInfo.cs
+C:\Users\PC_KIEN\Desktop\repos\Common\obj\Debug\netcoreapp3.0\Common.dll
+C:\Users\PC_KIEN\Desktop\repos\Common\obj\Debug\netcoreapp3.0\Common.pdb
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\Common\bin\Debug\netcoreapp3.0\Common.deps.json
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\Common\bin\Debug\netcoreapp3.0\Common.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\Common\bin\Debug\netcoreapp3.0\Common.pdb
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\Common\obj\Debug\netcoreapp3.0\Common.csprojAssemblyReference.cache
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\Common\obj\Debug\netcoreapp3.0\Common.AssemblyInfoInputs.cache
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\Common\obj\Debug\netcoreapp3.0\Common.AssemblyInfo.cs
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\Common\obj\Debug\netcoreapp3.0\Common.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\Common\obj\Debug\netcoreapp3.0\Common.pdb

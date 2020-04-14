@@ -1,0 +1,103 @@
+﻿
+/*Các css sử dụng chung*/
+.ct-bg-primary {
+    background: #0973b9;
+}
+.ct-border-focus-primary {
+    border-color: #0071c1 !important;
+}
+.ct-border-default {
+    border-color: #ccc !important;
+}
+.ct-hover-primary {
+    background-color: #d6e8f6 !important;
+}
+input, input.form-control, textarea {
+    padding: 2px 4px;
+    border: 1px solid #ccc;
+}
+
+    input.form-control, input.form-control:focus {
+        padding: 2px 4px;
+        height: 25px;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    input:focus, .form-control:focus, textarea:focus {
+        border: 1px solid #0071c1;
+        outline-offset: unset !important;
+        outline: none !important;
+    }
+
+.btn:focus {
+    box-shadow: none !important;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.flex-shrink-none {
+    flex-shrink: 0;
+}
+
+.margin-8 {
+    margin: 0 8px;
+}
+
+.was-validated .form-control:invalid {
+    border-color: #dc3545;
+    padding-right: 4px;
+    background-image: none;
+    box-shadow: none !important;
+}
+
+.ct-select {
+    width: 100%;
+    border-color: #ccc;
+    height: 25px;
+}
+
+    .ct-select:focus {
+        border-color: #0071c1;
+        outline: none;
+        outline-offset: unset !important;
+    }
+
+select.ct-select option:hover {
+    background-color: #ccc;
+}
+
+/*Chọn ngày tháng*/
+.dateWrap {
+    display: flex;
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 25px;
+}
+
+    .dateWrap input {
+        border: none !important;
+    }
+
+    .dateWrap:focus-within {
+        border: 1px solid #0071c1;
+    }
+
+.ui-datepicker-trigger {
+    width: 23px;
+    height: 23px;
+    position: relative;
+    background-image: url("/Contents/images/form/date-trigger.png");
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 23px 23px 0 0;
+    cursor: pointer;
+}

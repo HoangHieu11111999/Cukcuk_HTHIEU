@@ -1,0 +1,52 @@
+C:\Users\hthieu\Source\Workspaces\MISA.Web2019C11\MemberSourceCode\hthieu\source\repos\MISA.DL\bin\Debug\netcoreapp3.0\MISA.DL.deps.json
+C:\Users\hthieu\Source\Workspaces\MISA.Web2019C11\MemberSourceCode\hthieu\source\repos\MISA.DL\bin\Debug\netcoreapp3.0\MISA.DL.dll
+C:\Users\hthieu\Source\Workspaces\MISA.Web2019C11\MemberSourceCode\hthieu\source\repos\MISA.DL\bin\Debug\netcoreapp3.0\MISA.DL.pdb
+C:\Users\hthieu\Source\Workspaces\MISA.Web2019C11\MemberSourceCode\hthieu\source\repos\MISA.DL\bin\Debug\netcoreapp3.0\Common.dll
+C:\Users\hthieu\Source\Workspaces\MISA.Web2019C11\MemberSourceCode\hthieu\source\repos\MISA.DL\bin\Debug\netcoreapp3.0\Entities.dll
+C:\Users\hthieu\Source\Workspaces\MISA.Web2019C11\MemberSourceCode\hthieu\source\repos\MISA.DL\bin\Debug\netcoreapp3.0\Common.pdb
+C:\Users\hthieu\Source\Workspaces\MISA.Web2019C11\MemberSourceCode\hthieu\source\repos\MISA.DL\bin\Debug\netcoreapp3.0\Entities.pdb
+C:\Users\hthieu\Source\Workspaces\MISA.Web2019C11\MemberSourceCode\hthieu\source\repos\MISA.DL\obj\Debug\netcoreapp3.0\MISA.DL.csprojAssemblyReference.cache
+C:\Users\hthieu\Source\Workspaces\MISA.Web2019C11\MemberSourceCode\hthieu\source\repos\MISA.DL\obj\Debug\netcoreapp3.0\MISA.DL.AssemblyInfoInputs.cache
+C:\Users\hthieu\Source\Workspaces\MISA.Web2019C11\MemberSourceCode\hthieu\source\repos\MISA.DL\obj\Debug\netcoreapp3.0\MISA.DL.AssemblyInfo.cs
+C:\Users\hthieu\Source\Workspaces\MISA.Web2019C11\MemberSourceCode\hthieu\source\repos\MISA.DL\obj\Debug\netcoreapp3.0\MISA.DL.csproj.CopyComplete
+C:\Users\hthieu\Source\Workspaces\MISA.Web2019C11\MemberSourceCode\hthieu\source\repos\MISA.DL\obj\Debug\netcoreapp3.0\MISA.DL.dll
+C:\Users\hthieu\Source\Workspaces\MISA.Web2019C11\MemberSourceCode\hthieu\source\repos\MISA.DL\obj\Debug\netcoreapp3.0\MISA.DL.pdb
+E:\repos\MISA.DL\bin\Debug\netcoreapp3.0\MISA.DL.deps.json
+E:\repos\MISA.DL\bin\Debug\netcoreapp3.0\MISA.DL.dll
+E:\repos\MISA.DL\bin\Debug\netcoreapp3.0\MISA.DL.pdb
+E:\repos\MISA.DL\bin\Debug\netcoreapp3.0\Common.dll
+E:\repos\MISA.DL\bin\Debug\netcoreapp3.0\Entities.dll
+E:\repos\MISA.DL\bin\Debug\netcoreapp3.0\Common.pdb
+E:\repos\MISA.DL\bin\Debug\netcoreapp3.0\Entities.pdb
+E:\repos\MISA.DL\obj\Debug\netcoreapp3.0\MISA.DL.csprojAssemblyReference.cache
+E:\repos\MISA.DL\obj\Debug\netcoreapp3.0\MISA.DL.AssemblyInfoInputs.cache
+E:\repos\MISA.DL\obj\Debug\netcoreapp3.0\MISA.DL.AssemblyInfo.cs
+E:\repos\MISA.DL\obj\Debug\netcoreapp3.0\MISA.DL.csproj.CopyComplete
+E:\repos\MISA.DL\obj\Debug\netcoreapp3.0\MISA.DL.dll
+E:\repos\MISA.DL\obj\Debug\netcoreapp3.0\MISA.DL.pdb
+C:\Users\PC_KIEN\Desktop\repos\MISA.DL\bin\Debug\netcoreapp3.0\MISA.DL.deps.json
+C:\Users\PC_KIEN\Desktop\repos\MISA.DL\bin\Debug\netcoreapp3.0\MISA.DL.dll
+C:\Users\PC_KIEN\Desktop\repos\MISA.DL\bin\Debug\netcoreapp3.0\MISA.DL.pdb
+C:\Users\PC_KIEN\Desktop\repos\MISA.DL\bin\Debug\netcoreapp3.0\Common.dll
+C:\Users\PC_KIEN\Desktop\repos\MISA.DL\bin\Debug\netcoreapp3.0\Entities.dll
+C:\Users\PC_KIEN\Desktop\repos\MISA.DL\bin\Debug\netcoreapp3.0\Common.pdb
+C:\Users\PC_KIEN\Desktop\repos\MISA.DL\bin\Debug\netcoreapp3.0\Entities.pdb
+C:\Users\PC_KIEN\Desktop\repos\MISA.DL\obj\Debug\netcoreapp3.0\MISA.DL.csprojAssemblyReference.cache
+C:\Users\PC_KIEN\Desktop\repos\MISA.DL\obj\Debug\netcoreapp3.0\MISA.DL.AssemblyInfoInputs.cache
+C:\Users\PC_KIEN\Desktop\repos\MISA.DL\obj\Debug\netcoreapp3.0\MISA.DL.AssemblyInfo.cs
+C:\Users\PC_KIEN\Desktop\repos\MISA.DL\obj\Debug\netcoreapp3.0\MISA.DL.csproj.CopyComplete
+C:\Users\PC_KIEN\Desktop\repos\MISA.DL\obj\Debug\netcoreapp3.0\MISA.DL.dll
+C:\Users\PC_KIEN\Desktop\repos\MISA.DL\obj\Debug\netcoreapp3.0\MISA.DL.pdb
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.DL\bin\Debug\netcoreapp3.0\MISA.DL.deps.json
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.DL\bin\Debug\netcoreapp3.0\MISA.DL.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.DL\bin\Debug\netcoreapp3.0\MISA.DL.pdb
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.DL\bin\Debug\netcoreapp3.0\Common.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.DL\bin\Debug\netcoreapp3.0\Entities.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.DL\bin\Debug\netcoreapp3.0\Common.pdb
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.DL\bin\Debug\netcoreapp3.0\Entities.pdb
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.DL\obj\Debug\netcoreapp3.0\MISA.DL.csprojAssemblyReference.cache
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.DL\obj\Debug\netcoreapp3.0\MISA.DL.AssemblyInfoInputs.cache
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.DL\obj\Debug\netcoreapp3.0\MISA.DL.AssemblyInfo.cs
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.DL\obj\Debug\netcoreapp3.0\MISA.DL.csproj.CopyComplete
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.DL\obj\Debug\netcoreapp3.0\MISA.DL.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.DL\obj\Debug\netcoreapp3.0\MISA.DL.pdb

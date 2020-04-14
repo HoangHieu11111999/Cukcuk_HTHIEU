@@ -1,0 +1,311 @@
+﻿
+@import "/CSS/common/menu.css";
+@import "/CSS/common/grid.css";
+@import "/CSS/common/toolbar.css";
+@import "/CSS/common/table.css";
+@import "/CSS/common/combobox.css";
+@import "/CSS/custom/jquery-ui-custom.css";
+@import "/CSS/common/button.css";
+body {
+    margin: 0;
+    font-size: 13px;
+    min-width: 768px;
+}
+
+@font-face {
+    font-family: TahomaCustom;
+    src: url('/Contents/fonts/Tahoma_Regular.eot');
+    src: url('/Contents/fonts/Tahoma_Regular.eot?#iefix') format('embedded-opentype'),url('/Contents/fonts/Tahoma_Regular.woff') format('woff'),url('/Contents/fonts/Tahoma_Regular.ttf') format('truetype'),url('/Contents/fonts/Tahoma_Regular.svg#TahomaCustom') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'TahomaCustom';
+    src: url('/Contents/fonts/Tahoma_Bold.eot');
+    src: url('/Contents/fonts/Tahoma_Bold.eot?#iefix') format('embedded-opentype'),url('/Contents/fonts/Tahoma_Bold.woff') format('woff'),url('/Contents/fonts/Tahoma_Bold.ttf') format('truetype'),url('/Contents/fonts/Tahoma_Bold.svg#TahomaCustom') format('svg');
+    font-weight: bold;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'TahomaCustom';
+    src: url('/Contents/fonts/Tahoma_Italic.eot');
+    src: url('/Contents/fonts/Tahoma_Italic.eot?#iefix') format('embedded-opentype'),url('/Contents/fonts/Tahoma_Italic.woff') format('woff'),url('/Contents/fonts/Tahoma_Italic.ttf') format('truetype'),url('/Contents/fonts/Tahoma_Italic.svg#TahomaCustom') format('svg');
+    font-weight: normal;
+    font-style: italic
+}
+
+* {
+    font-family: TahomaCustom !important
+}
+
+@font-face {
+    font-family: 'fontello';
+    src: url('/Contents/fonts/fontello.woff');
+    src: url('/Contents/fonts/fontello.woff#iefix') format('embedded-opentype'),url('/Contents/fonts/fontello.woff') format('woff'),url('/Contents/fonts/fontello.woff') format('truetype'),url('/Contents/fonts/fontello.woff#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+/****** header ******/
+.header {
+    position: relative;
+    height: 55px;
+    display: flex;
+}
+
+    .header .header-logo-box {
+        display: flex;
+        width: 230px;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .header .icon-left-header {
+        width: 30px;
+        height: 30px;
+        margin-left: 12px;
+        background-image: url('/Contents/images/icon-left-header.png');
+        background-repeat: no-repeat;
+        background-position: 2px 5px;
+        align-self: center;
+    }
+
+    .header .header-logo {
+        height: 30px;
+        width: 100%;
+        background-image: url('/Contents/images/logo-text.png');
+        background-repeat: no-repeat;
+        background-position: 2px center;
+        margin-left: 4px;
+        align-self: center;
+    }
+
+    .header .header-center-box {
+        width: 212px;
+        display: flex;
+        justify-content: center;
+    }
+
+        .header .header-center-box select {
+            background-color: #005082;
+            color: #fff;
+            align-self: center;
+            height: 35px;
+            border: none;
+        }
+
+            .header .header-center-box select:focus {
+                border: none;
+            }
+
+            .header .header-center-box select option {
+                background-color: #fff;
+                color: #000;
+                height: 35px;
+            }
+
+    .header .header-right {
+        display: flex;
+        position: absolute;
+        right: 0;
+        justify-content: center;
+    }
+
+    /*Notice box*/
+    .header .header-notice-box {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        align-self: center;
+    }
+
+        .header .header-notice-box .number-notification {
+            position: absolute;
+            top: 4px;
+            right: 4px;
+            color: #fff;
+            padding: 0px 5px;
+            font-size: 13px;
+            font-weight: bold;
+            background-color: #ff5252
+        }
+
+    /*SupportBox*/
+    .header .header-support-box {
+        position: relative;
+        align-self: center;
+        width: 65px;
+        background-image: url('/Contents/images/ic_support.svg');
+        background-repeat: no-repeat;
+    }
+
+        .header .header-support-box:hover {
+            background-color: #3386c2;
+            cursor: pointer;
+        }
+
+            .header .header-support-box:hover .label-misasupport {
+                display: block !important;
+            }
+
+        .header .header-support-box .label-misasupport {
+            position: absolute;
+            display: none;
+            white-space: nowrap;
+            right: 0;
+            background: #656565;
+            left: auto !important;
+            top: 65px !important;
+            z-index: 1000;
+            color: #fff;
+            padding: 6px 12px !important;
+            border-radius: 15px;
+        }
+
+            .header .header-support-box .label-misasupport::after {
+                content: "";
+                display: block;
+                position: absolute;
+                top: -20px;
+                right: 25px;
+                z-index: 10000;
+                border-width: 10px 8px 10px 8px;
+                border-style: solid;
+                border-color: transparent transparent #656565 transparent
+            }
+    /*account box*/
+    .header .header-account-box {
+        position: relative;
+        display: flex;
+        align-self: center;
+        color: #fff;
+        margin: 0 16px;
+        cursor: pointer;
+    }
+
+        .header .header-account-box .account-avatar {
+            width: 28px;
+            height: 28px;
+            border-radius: 14px;
+            background-color: #fff;
+            background-image: url('/Contents/images/EmployeeImage.png');
+            vertical-align: middle;
+            background-position: center center;
+            background-repeat: no-repeat;
+            align-self: center;
+        }
+
+        .header .header-account-box .account-name {
+            align-self: center;
+            padding: 0 5px;
+        }
+
+            .header .header-account-box .account-name:after {
+                content: '';
+                font-family: "fontello";
+                font-size: 14px;
+                color: #fff;
+                text-align: center;
+                width: 16px;
+                background-image: none;
+                padding: 0 13px;
+            }
+
+        .header .header-account-box .account-arrow {
+            align-self: center;
+        }
+
+    .header .account-action-box {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        color: #000;
+        border: 1px solid #ccc;
+        z-index: 999;
+        top: 100%;
+        right: 0;
+    }
+
+        .header .account-action-box .account-action-item {
+            padding: 8px;
+        }
+
+            .header .account-action-box .account-action-item:hover {
+                background-color: #d8e6f6;
+                cursor: pointer;
+            }
+
+/****** menu ******/
+.menu {
+    position: absolute;
+    width: 230px;
+    right: auto;
+    left: 0px;
+    top: 55px;
+    margin: 0px;
+    bottom: 0;
+}
+
+/****** content ******/
+.content {
+    position: absolute;
+    top: 55px;
+    right: 0;
+    left: 230px;
+    margin: 0px;
+    bottom: 0;
+}
+
+.content-top {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    justify-items: center;
+    display: flex;
+}
+
+    .content-top .ct-breadcrumb {
+        padding-left: 8px;
+        display: flex;
+        align-self: center;
+    }
+
+        .content-top .ct-breadcrumb .breadcrumb-main {
+            color: #000;
+            font-size: 22px;
+            line-height: 36px;
+            font-weight: normal;
+        }
+
+            .content-top .ct-breadcrumb .breadcrumb-main:after {
+                width: 20px;
+                font-size: 20px;
+                line-height: 36px;
+                content: "";
+                font-family: fontello;
+                color: rgb(0, 114, 188);
+                text-align: center;
+                background-image: none;
+                margin: 0 8px;
+            }
+
+        .content-top .ct-breadcrumb .breadcrumb-sub {
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 38px;
+            color: #0072bc;
+            padding: 0 5px 0 0;
+            max-width: 100%;
+        }
+
+.content-grid {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin: 0 8px 8px;
+    bottom: 0;
+}
+
