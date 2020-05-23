@@ -5,7 +5,7 @@
         registerEvents();
     }
 
- 
+
     var registerEvents = function () {
 
         $('body').on('click', '#btnLogin', function (e) {
@@ -28,53 +28,41 @@
 
     }
 
-    function validLogin(username, password,obj) {
-        $.ajax({
-            type: 'POST',
-            url: `https://localhost:44381/Customer/loginAdmin`,
-            data: JSON.stringify(obj),
-            dataType:'json',
-            contentType: "application/json; charset=utf-8",
-            success: function (response) {
-                if (response === 1 ) {
-                    alert('success');
-                    return window.location.href = '/Views/Dictionary/customer.html';
+    function validLogin(username, password, obj) {
+        try {
+            $.ajax({
+                type: 'POST',
+                url: `https://localhost:44381/admin/loginAdmin`,
+                data: JSON.stringify(obj),
+                dataType: 'json',
+                contentType: "application/json; charset=utf-8",
+                success: function (response) {
+                    if (username === '' || username === 'User name' || username.length <= 4) {
+                        return setTimeout(function () { $('#txtValid').text('You must enter User name!'); }, 3000);
+
+                    }
+
+                    else if (password == '' || password == 'Password' || password.length <= 4) {
+
+                        return setTimeout(function () { $('#txtValid').text('You must enter Password!'); }, 3000);
+                    }
+                    if (response === 1) {
+                        alert('success');
+                        return window.location.href = '/Views/Dictionary/customer.html';
+                    }
+                    else {
+                        alert('User account or password is incorrect!');
+                    }
+                },
+                error: function (err) {
+                    alert(err);
                 }
-                else {
-                    alert('User account or password is incorrect!');
-                }
+            });
+        } catch
+        {
+            alert(err);
+        }
 
-                //$.each(response, function (key, value) {
-
-                //    if (username === '' || username === 'User name' || username.length <= 4) {
-                //        return setTimeout(function () { $('#txtValid').text('You must enter User name!'); }, 3000);
-                         
-                //    }
-
-                //    if (password == '' || password == 'Password' || password.length <= 4) {
-                
-                //        return setTimeout(function () { $('#txtValid').text('You must enter Password!'); }, 3000);
-                //    }
-
-                //    for (var i = 0; i < value.length; i++) {
-                //        if (username == value[i].UserName) {
-                //            if (password == value[i].Password) {
-                //                return window.location.href = '/Views/Dictionary/customer.html';
-                                
-                //            }
-                //        } else if (username != value[i].UserName || password != value[i].Password) {
-                //            return setTimeout(function () { $('#txtValid').text('User account or password is incorrect!'); }, 3000);
-                            
-                //        }
-                //    }
-
-                //});
-            },
-            error: function (err) {
-                alert(err);
-                console.log(err);
-            }
-        });
     }
 
 }

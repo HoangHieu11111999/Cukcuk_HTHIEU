@@ -6,6 +6,7 @@ using Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MISA.BL;
+using MISA.DL;
 
 namespace MISA.CukCuk.Controllers
 {
@@ -28,6 +29,15 @@ namespace MISA.CukCuk.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+        }
+
+        AdminBL adminBL = new AdminBL();
+
+        [HttpPost("loginAdmin")]
+        public int LoginAdmin(Admin admin)
+        {
+
+            return adminBL.LoginAdmin(admin);
         }
     }
 }

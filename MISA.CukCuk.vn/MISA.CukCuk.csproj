@@ -15,9 +15,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\Css\libraries\**" />
+    <Content Remove="wwwroot\Css\libraries\**" />
+    <EmbeddedResource Remove="wwwroot\Css\libraries\**" />
+    <None Remove="wwwroot\Css\libraries\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\Contents\icons\" />
     <Folder Include="wwwroot\Controllers\" />
-    <Folder Include="wwwroot\Css\libraries\" />
     <Folder Include="wwwroot\Models\" />
   </ItemGroup>
 

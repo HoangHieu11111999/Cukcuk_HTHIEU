@@ -303,10 +303,10 @@
             width: 24px;
             height: 24px;
             background-image: url("/Contents/images/iconMenu.png");
+            margin-right: 8px;
         }
 
         .menu .menu-item .icon {
-            margin-right: 8px;
         }
 
         .menu .menu-item.summary .icon {

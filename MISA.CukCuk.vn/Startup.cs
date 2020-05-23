@@ -15,9 +15,10 @@ namespace MISA.CukCuk
 {
     public class Startup
     {
+        IConfigurationRoot _config { get; }
         public Startup(IConfiguration configuration)
         {
-            Configuration = configuration;
+            configuration = _config;
         }
 
         public IConfiguration Configuration { get; }
@@ -32,6 +33,7 @@ namespace MISA.CukCuk
             //services.AddDbContext<CustomerDbContext>(options =>
             //          options.UseInMemoryDatabase("name"));
             services.AddRazorPages();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,12 +44,12 @@ namespace MISA.CukCuk
                 app.UseDeveloperExceptionPage();
             }
             app.UseFileServer();
-            //app.UseStaticFiles();
+            app.UseStaticFiles();
             app.UseHttpsRedirection();
 
             app.UseRouting();
 
-            //app.UseAuthorization();
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
