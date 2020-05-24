@@ -5,7 +5,10 @@
     <title>CukCuk</title>
     <link href="/Css/View/Dictionary/customer.css" rel="stylesheet" />
     <link href="/Contents/vendors/jquery-ui-1.12.1/jquery-ui.css" rel="stylesheet" />
-   
+    <link href="../../Css/Library/all.css" rel="stylesheet" />
+    <link href="../../Css/View/Dictionary/dashboard.css" rel="stylesheet" />
+    <link href="../../Css/Library/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
 <body>
     <!-- Header -->
@@ -62,13 +65,13 @@
     </div>
     <!-- Menu -->
     <div class="menu" style="display:block;">
-        <div class="menu-item summary" >
+        <div class="menu-item summary">
             <div class="icon"></div>
-            <div class="title" >Tổng quan</a></div>
+            <div class="title"><a href="customer.html" style="text-decoration:none ;  color: whitesmoke; line-height:40px;">Tổng quan</a></div>
         </div>
         <div class="menu-item report">
             <div class="icon"></div>
-            <div class="title"><a href="dashboard.html" style="text-decoration:none; color:antiquewhite">Báo cáo</a></div>
+            <div class="title">Báo cáo</div>
         </div>
         <div class="menu-item buy">
             <div class="icon"></div>
@@ -140,257 +143,74 @@
         <div class="content-top">
             <div class="ct-breadcrumb">
                 <div class="breadcrumb-main">Danh mục</div>
-                <div class="breadcrumb-sub">Khách hàng</div>
+                <div class="breadcrumb-sub">Thống kê</div>
             </div>
         </div>
-        <form>
-            <div class="grid-master">
-                <div class="toolbar">
-                    <button id="btn-add">
-                        <div class="toolbar-item">
-                            <div class="toolbar-item-icon btn-icon-add"></div>
-                            <div class="toolbar-item-text">Thêm</div>
-                        </div>
-                    </button>
-                    <button disabled>
-                        <div class="toolbar-item opacity-div">
-                            <div class="toolbar-item-icon btn-icon-duplicate"></div>
-                            <div class="toolbar-item-text">Nhân bản</div>
-                        </div>
-                    </button>
-                    <button id="btn-edit" disabled>
-                        <div class="toolbar-item">
-                            <div class="toolbar-item-icon btn-icon-edit"></div>
-                            <div class="toolbar-item-text">Sửa</div>
-                        </div>
-                    </button>
-                    <button id="btn-delete" disabled>
-                        <div class="toolbar-item">
-                            <div class="toolbar-item-icon btn-icon-delete"></div>
-                            <div class="toolbar-item-text">Xóa</div>
-                        </div>
-                    </button>
-                    <button id="btn-loadDataTable">
-                        <div class="toolbar-item">
-                            <div class="toolbar-item-icon btn-icon-refresh"></div>
-                            <div class="toolbar-item-text">Nạp</div>
-                        </div>
-                    </button>
-                    <button disabled>
-                        <div class="toolbar-item opacity-div">
-                            <div class="toolbar-item-icon btn-icon-import"></div>
-                            <div class="toolbar-item-text">Nhập khẩu</div>
-                        </div>
-                    </button>
-                    <button disabled>
-                        <div class="toolbar-item opacity-div">
-                            <div class="toolbar-item-icon btn-icon-export"></div>
-                            <div class="toolbar-item-text">Xuất khẩu</div>
-                        </div>
-                    </button>
-                    <button disabled>
-                        <div class="toolbar-item opacity-div">
-                            <div class="toolbar-item-icon btn-icon-lump"></div>
-                            <div class="toolbar-item-text">Gộp khách hàng</div>
-                        </div>
-                    </button>
-                    <button>
-                        <div class="toolbar-item">
-                            <div class="toolbar-item-icon btn-icon-help"></div>
-                            <div class="toolbar-item-text">Giúp</div>
-                        </div>
-                    </button>
+        <div id="statistic-overview">
+            <div class="statistic statistic-total">
+                <div>
+                    <i class="fas fa-users"></i>
+                    <span class="title-statistic"> Tổng số User</span>
                 </div>
-                <!-- Tạo table load data cho trang customer -->
-                <div class="grid">
-
-                    <table class="master-table">
-                        <thead>
-                            <tr class="table-header">
-                                <th id="MNV" fieldName="CustomerCode" format="Text">
-                                    Mã khách hàng
-                                    <br />
-                                    <div class="filter">
-                                        <div class="filter-btn">∗</div>
-                                        <div class="filter-input">
-                                            <input type="text" class="style-input"  />
-                                        </div>
-                                    </div>
-                                </th>
-                                <th id="Name-customer" fieldName="CustomerName" format="Text">
-                                    Tên khách hàng
-                                    <br />
-                                    <div class="filter">
-                                        <div class="filter-btn">∗</div>
-                                        <div class="filter-input">
-                                            <input type="text" class="style-input name" />
-                                        </div>
-                                    </div>
-                                </th>
-                                <th id="Datetime" fieldName="Birthday" format="Date">
-                                    Ngày sinh
-                                    <br />
-                                    <div class="filter">
-                                        <div class="filter-btn">=</div>
-                                        <div class="filter-input">
-                                            <input type="text" class="style-input" />
-                                        </div>
-                                    </div>
-                                </th>
-                                <th id="Name-company" fieldName="CompanyName" format="Text">
-                                    Tên công ty
-                                    <br />
-                                    <div class="filter">
-                                        <div class="filter-btn">∗</div>
-                                        <div class="filter-input">
-                                            <input type="text" class="style-input" />
-                                        </div>
-                                    </div>
-                                </th>
-                                <th id="Tax-code" fieldName="CompanyTaxCode" format="Text">
-                                    Mã số thuế
-                                    <br />
-                                    <div class="filter">
-                                        <div class="filter-btn">∗</div>
-                                        <div class="filter-input">
-                                            <input type="text" class="style-input" />
-                                        </div>
-                                    </div>
-                                </th>
-                                <th id="Adress" fieldName="Address" format="Text">
-                                    Địa chỉ
-                                    <br />
-                                    <div class="filter">
-                                        <div class="filter-btn">∗</div>
-                                        <div class="filter-input">
-                                            <input type="text" class="style-input" />
-                                        </div>
-                                    </div>
-                                </th>
-                                <th id="Number-telephone" fieldName="Tel" format="Text">
-                                    Số điện thoại
-                                    <br />
-                                    <div class="filter">
-                                        <div class="filter-btn">=</div>
-                                        <div class="filter-input">
-                                            <input type="text" class="style-input" />
-                                        </div>
-                                    </div>
-                                </th>
-                                <th id="Email" fieldName="Email" format="Text">
-                                    Email
-                                    <br />
-                                    <div class="filter">
-
-                                        <div class="filter-btn">
-                                            ∗
-
-                                        </div>
-
-                                        <div class="filter-input">
-                                            <input type="text" class="style-input" />
-                                        </div>
-                                    </div>
-                                </th>
-                                <th id="Amout" fieldName="Amount" format="Amount">
-                                    Số tiền nợ
-                                    <br />
-                                    <div class="filter">
-
-                                        <div class="filter-btn">
-                                            ∗
-
-                                        </div>
-
-                                        <div class="filter-input">
-                                            <input type="text" class="style-input" />
-                                        </div>
-                                    </div>
-                                </th>
-                                <th id="Note" fieldName="Description" format="Text">
-                                    Ghi chú
-                                    <br />
-                                    <div class="filter">
-
-                                        <div class="filter-btn">
-                                            ∗
-
-                                        </div>
-
-                                        <div class="filter-input">
-                                            <input type="text" class="style-input" />
-                                        </div>
-                                    </div>
-                                </th>
-                                <th id="Member-5food" fieldName="Is5FoodMember" format="Checked-is5FoodMember">
-                                    Thành viên 5food
-                                    <br />
-                                    <div class="filter">
-
-                                        <select disabled="disabled">
-                                            <option></option>
-                                            <option>--Thành viên 2--</option>
-                                            <option>--Thành viên 3--</option>
-                                            <option>--Thành viên 4--</option>
-                                        </select>
-
-                                    </div>
-                                </th>
-                                <th id="Unfollow" fieldName="IsGenerate" format="Checked-IsGenerate">
-                                    Ngừng theo dõi
-                                    <br />
-                                    <div class="filter">
-                                        <select disabled="disabled">
-                                            <option></option>
-                                            <option>--Thành viên 2--</option>
-                                            <option>--Thành viên 3--</option>
-                                            <option>--Thành viên 4--</option>
-                                        </select>
-                                    </div>
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody class="table-content">
-                        </tbody>
-                        <div <!--style=" opacity: 0.3-->; background: #808080; height:100% ">
-                            <div class="loading" style=" opacity: 1 !important;">
-                                <div class="lds-spinner" ><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
-                            </div>
-                        </div>
-                        
-                    </table>
-                    
+                <div class="number-User">
+                    40.000
                 </div>
             </div>
-        </form>
-        <!-- Tạo paging cho table -->
-        <div class="toolbar-paging">
-            <div class="toolbar-paging-left">
-                <div class="icon-toolbar-paging icon-come-back-many-times"></div>
-                <div class="icon-toolbar-paging icon-come-back"></div>
-                <div class="text-toolbar-paging-left-1">Trang</div>
-                <div class="number-page">
-                    <input type="text" placeholder="1" />
+            <div class="statistic statistic-one-week">
+                <div>
+                    <i class="fas fa-users"></i>
+                    <span class="title-statistic"> Tổng số User 7 ngày</span>
                 </div>
-                <div class="text-toolbar-paging-left-2">trên 1</div>
-                <div class="icon-toolbar-paging icon-next"></div>
-                <div class="icon-toolbar-paging icon-next-many-times"></div>
-                <div class="icon-toolbar-paging icon-reload"></div>
-                <div class="icon-toolbar-paging select-option">
-                    <select>
-                        <option>25</option>
-                        <option>50</option>
-                        <option>100</option>
-                        <option>200</option>
-                        <option>300</option>
-                        <option>500</option>
-                        <option>700</option>
-                        <option>1000</option>
-                    </select>
+                <div class="number-User">
+                    40.000
                 </div>
             </div>
-            <div class="toolbar-paging-right">
-                <div class="text-toolbar-paging-right">Hiển thị kết quả 1/19</div>
+            <div class="statistic statistic-one-month">
+                <div>
+                    <i class="fas fa-users"></i>
+                    <span class="title-statistic"> Tổng số User 30 ngày</span>
+                </div>
+                <div class="number-User">
+                    40.000
+                </div>
+            </div>
+            <div class="statistic statistic-six-month">
+                <div>
+                    <i class="fas fa-users"></i>
+                    <span class="title-statistic"> Tổng số User 6 tháng</span>
+                </div>
+                <div class="number-User">
+                    40.000
+                </div>
+            </div>
+            <div class="statistic statistic-one-year">
+                <div>
+                    <i class="fas fa-users"></i>
+                    <span class="title-statistic"> Tổng số User 365 ngày</span>
+                </div>
+                <div class="number-User">
+                    40.000
+                </div>
+            </div>
+        </div>
+        <div class="row" style="height:300px ; width:100%">
+            <div class="card" >
+                <div class="card-body">
+                    <canvas id="myChart"></canvas>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col">
+                <div class="card-body">
+                    <canvas id="myChart2"></canvas>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card-body">
+                    <canvas id="myChart3"></canvas>
+                </div>
             </div>
         </div>
     </div>
@@ -537,7 +357,8 @@
     <script src="/Scripts/views/dictionary/Base.js"></script>
     <script src="../../Scripts/common/common1.js"></script>
     <script src="/Scripts/views/dictionary/customer.js"></script>
-    <script type="application/json" src="/App_Start/data.json">
-    </script>
+    <script src="../../Scripts/libraries/all.js"></script>
+    <script src="../../Scripts/views/dictionary/dashboard.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 </body>
 </html>
