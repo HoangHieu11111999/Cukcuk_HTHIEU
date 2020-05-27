@@ -38,23 +38,16 @@
                 dataType: 'json',
                 contentType: "application/json; charset=utf-8",
                 success: function (response) {
-                    var userLogin = ` <div class="header-account-box">
-                    <div class="account-avatar"></div>
-                    <div class="account-name"><span>${response}</span></div>
-                    <div class="account-action-box hide-outside-click">
-                        <div class="account-action-item"><span class="icon icon-edit"></span>Thay đổi mật khẩu</div>
-                        <div class="account-action-item" id="btnLogOut"><span class="icon icon-logout"></span>Ðăng xuất</div>
-                    </div>
-                    </div>`;
+                    
                     $(".header-account-box").append(userLogin);
                     if (username === '' || username === 'User name' || username.length <= 4) {
-                        return setTimeout(function () { $('#txtValid').text('You must enter User name!'); }, 3000);
+                        return $('#txtValid').text('You must enter User name!');
 
                     }
 
                     else if (password == '' || password == 'Password' || password.length <= 4) {
 
-                        return setTimeout(function () { $('#txtValid').text('You must enter Password!'); }, 3000);
+                        return $('#txtValid').text('You must enter Password!');
                     }
                     if (response === 1) {
                         alert('success');
