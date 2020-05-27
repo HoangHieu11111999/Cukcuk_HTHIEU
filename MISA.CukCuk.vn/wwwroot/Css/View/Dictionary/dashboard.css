@@ -4,6 +4,7 @@
     font-size: 13px;
     min-width: 768px;
     overflow: hidden;
+    font-family: 'Times New Roman' 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 @font-face {
@@ -30,9 +31,9 @@
     font-style: italic
 }
 
-* {
-    font-family: TahomaCustom !important
-}
+/** {
+    font-family: TahomaCustom !important;
+}*/
 
 @font-face {
     font-family: 'fontello';
@@ -1271,8 +1272,8 @@ input #birthday {
     height:auto;
     display: flex;
     justify-content:space-between;
-    margin-left:8px;
-    margin-right:8px;
+    margin-left:12px;
+    margin-right:12px;
 }
     .statistic{
         width:15%;
@@ -1304,6 +1305,7 @@ input #birthday {
         }
             .number-User{
                 font-size:24px;
+                font-weight:bold;
 
             }
             .title-statistic{

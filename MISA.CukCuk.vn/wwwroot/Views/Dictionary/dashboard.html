@@ -3,12 +3,10 @@
 <head>
     <meta charset="utf-8" />
     <title>CukCuk</title>
-    <link href="/Css/View/Dictionary/customer.css" rel="stylesheet" />
     <link href="/Contents/vendors/jquery-ui-1.12.1/jquery-ui.css" rel="stylesheet" />
     <link href="../../Css/Library/all.css" rel="stylesheet" />
     <link href="../../Css/View/Dictionary/dashboard.css" rel="stylesheet" />
     <link href="../../Css/Library/bootstrap.min.css" rel="stylesheet" />
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
 <body>
     <!-- Header -->
@@ -53,12 +51,7 @@
                     </label>
                 </div>
                 <div class="header-account-box">
-                    <div class="account-avatar"></div>
-                    <div class="account-name"><span>Hoàng Trung Hiếu</span></div>
-                    <div class="account-action-box hide-outside-click">
-                        <div class="account-action-item"><span class="icon icon-edit"></span>Thay đổi mật khẩu</div>
-                        <div class="account-action-item" id="btnLogOut"><span class="icon icon-logout"></span>Ðăng xuất</div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -193,23 +186,51 @@
                 </div>
             </div>
         </div>
-        <div class="row" style="height:300px ; width:100%">
-            <div class="card" >
-                <div class="card-body">
-                    <canvas id="myChart"></canvas>
+
+
+        <div class="row" style="margin-top:12px;margin:12px;">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        Tổng số khách hàng 6 tháng gần nhất
+                    </div>
+                    <div class="card-body">
+                        <canvas id="myChart2"></canvas>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        Tổng số khách hàng 1 năm gần nhất
+                    </div>
+                    <div class="card-body">
+                        <canvas id="myChart3"></canvas>
+                    </div>
                 </div>
             </div>
         </div>
-        
-        <div class="row">
-            <div class="col">
-                <div class="card-body">
-                    <canvas id="myChart2"></canvas>
+        <div class="row" style="margin-top:12px;margin:12px;">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        Tổng số khách hàng 7 ngày gần nhất
+                    </div>
+                    <div class="card-body">
+                        <canvas id="myChart4"></canvas>
+                    </div>
                 </div>
+
             </div>
-            <div class="col">
-                <div class="card-body">
-                    <canvas id="myChart3"></canvas>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        Tổng số khách hàng 30 ngày gần nhất
+                    </div>
+                    <div class="card-body">
+                        <canvas id="myChart"></canvas>
+                    </div>
                 </div>
             </div>
         </div>

@@ -47,7 +47,7 @@ class CustomerJS extends Base {
 
         $('#btnLogOut').click(function (e) {
             e.preventDefault();
-            window.location.href = '/Admin/index.html';
+            window.location.href = '/Admin/login.html';
             return;
         });
     }
