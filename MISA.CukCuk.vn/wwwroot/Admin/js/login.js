@@ -39,7 +39,7 @@
                 contentType: "application/json; charset=utf-8",
                 success: function (response) {
                     
-                    $(".header-account-box").append(userLogin);
+                   
                     if (username === '' || username === 'User name' || username.length <= 4) {
                         return $('#txtValid').text('You must enter User name!');
 
