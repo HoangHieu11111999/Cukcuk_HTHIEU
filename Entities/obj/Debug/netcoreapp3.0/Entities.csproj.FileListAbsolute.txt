@@ -29,4 +29,3 @@ C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\Entities\obj\Debug\netcoreapp3.0\En
 C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\Entities\obj\Debug\netcoreapp3.0\Entities.AssemblyInfo.cs
 C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\Entities\obj\Debug\netcoreapp3.0\Entities.dll
 C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\Entities\obj\Debug\netcoreapp3.0\Entities.pdb
-C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\Entities\obj\Debug\netcoreapp3.0\Entities.csprojAssemblyReference.cache

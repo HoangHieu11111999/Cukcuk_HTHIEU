@@ -35,6 +35,17 @@ namespace MISA.BL
         }
 
         /// <summary>
+        /// Lấy ra thông tin khách hàng từ mã khách hàng
+        /// createdby : HTHIEU(17/12/2019)
+        /// </summary>
+        /// <param name="CustomerCode"></param>
+        /// <returns></returns>
+        public T GetCustomersRunTime(string rangeTime)
+        {
+            return customerDL.GetCustomersRunTime(rangeTime);
+        }
+
+        /// <summary>
         /// Hàm thực hiện thêm dữ liệu khách hàng
         /// createdby : HTHIEU (17/12/2019)
         /// </summary>

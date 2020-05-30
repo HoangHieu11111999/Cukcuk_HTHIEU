@@ -125,6 +125,37 @@ namespace MISA.DL
         }
 
         /// <summary>
+        /// Hàm lấy ra thông tin khách hàng từ MÃ khách hàng
+        /// createdby: HTHIEU (16/12/2019)
+        /// </summary>
+        /// <param name="CustomerCode">Mã khách hàng </param>
+        /// <returns></returns>
+        public T GetCustomersRunTime<T>(string rangeTime, string storeName)
+        {
+            T customer = Activator.CreateInstance<T>();
+            _sqlCommand.CommandText = storeName;
+            SqlCommandBuilder.DeriveParameters(_sqlCommand);
+            var sqlParameters = _sqlCommand.Parameters;
+            sqlParameters[1].Value = rangeTime;
+            SqlDataReader sqlDataReader = _sqlCommand.ExecuteReader();
+            while (sqlDataReader.Read())
+            {
+
+                for (int i = 0; i < sqlDataReader.FieldCount; i++)
+                {
+                    var fieldName = sqlDataReader.GetName(i);
+                    var fieldValue = sqlDataReader.GetValue(i);
+                    var property = customer.GetType().GetProperty(fieldName);
+                    if (property != null && fieldValue != DBNull.Value)
+                    {
+                        property.SetValue(customer, fieldValue);
+                    }
+                }
+            }
+            return customer;
+        }
+
+        /// <summary>
         /// Hàm thêm mới khách hàng vào DB
         /// createdby: HTHIEU (16/12/2019)
         /// </summary>

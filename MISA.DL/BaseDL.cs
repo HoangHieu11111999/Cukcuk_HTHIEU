@@ -46,6 +46,19 @@ namespace MISA.DL
                 return dataAccess.GetCustomersByCode<T>(CustomerCode, string.Format("[dbo].[Proc_Get{0}ByCode]",name));
             }
         }
+        /// <summary>
+        /// Hàm lấy dữ liệu theo mã khách hàng
+        /// </summary>
+        /// createdby : HTHIEU (20/12/2019)
+        /// <param name="CustomerCode">MÃ Khách Hàng</param>
+        /// <returns></returns>
+        public T GetCustomersRunTime(string rangeTime)
+        {
+            using (DataAccess dataAccess = new DataAccess())
+            {
+                return dataAccess.GetCustomersRunTime<T>(rangeTime, "[dbo].[Proc_GetUserRunTime]");
+            }
+        }
 
 
         public IEnumerable<T> Search(string CustomerName)

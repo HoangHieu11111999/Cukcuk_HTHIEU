@@ -95,5 +95,7 @@ namespace Entities
         /// Người sửa
         /// </summary>
         public string ModifiedBy { get; set; }
+
+        public int Toltal { get; set; }
     }
 }

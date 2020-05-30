@@ -43,6 +43,19 @@ namespace MISA.CukCuk.Controllers
             return baseBL.GetCustomersByCode(CustomerCode);
         }
 
+        /// <summary>
+        /// Lấy ra thông tin khách hàng theo mã khách hàng
+        /// createdby: HTHIEU (17/12/2019)
+        /// </summary>
+        /// <param name="rangeTime">thời gian khách hàng cần được lấy ra thông tin</param>
+        /// <returns></returns>
+        // GET:/Base/5
+        [HttpGet("{customerRunTime}")]
+        public virtual Customer GetCustomerRunTime(string rangeTime)
+        {
+            return baseBL.GetCustomersRunTime(rangeTime);
+        }
+
         // POST: /Base
         /// <summary>
         /// Hàm thực hiện thêm mới khách hàng
