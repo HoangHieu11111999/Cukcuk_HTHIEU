@@ -7,6 +7,9 @@ class dashBoard {
         this.init();
     }
     init() {
+
+
+
         var ctxd = document.getElementById('myChart').getContext('2d');
         var myChart = new Chart(ctxd, {
             type: 'line',

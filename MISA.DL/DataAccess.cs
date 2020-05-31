@@ -130,7 +130,7 @@ namespace MISA.DL
         /// </summary>
         /// <param name="CustomerCode">Mã khách hàng </param>
         /// <returns></returns>
-        public T GetCustomersRunTime<T>(string rangeTime, string storeName)
+        public T GetCustomersRunTime<T>(int rangeTime, string storeName)
         {
             T customer = Activator.CreateInstance<T>();
             _sqlCommand.CommandText = storeName;

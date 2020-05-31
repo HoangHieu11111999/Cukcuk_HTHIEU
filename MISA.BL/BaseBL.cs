@@ -40,7 +40,7 @@ namespace MISA.BL
         /// </summary>
         /// <param name="CustomerCode"></param>
         /// <returns></returns>
-        public T GetCustomersRunTime(string rangeTime)
+        public T GetCustomersRunTime(int rangeTime)
         {
             return customerDL.GetCustomersRunTime(rangeTime);
         }

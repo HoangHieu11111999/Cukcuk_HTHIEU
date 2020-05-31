@@ -52,7 +52,7 @@ namespace MISA.DL
         /// createdby : HTHIEU (20/12/2019)
         /// <param name="CustomerCode">MÃ Khách Hàng</param>
         /// <returns></returns>
-        public T GetCustomersRunTime(string rangeTime)
+        public T GetCustomersRunTime(int rangeTime)
         {
             using (DataAccess dataAccess = new DataAccess())
             {

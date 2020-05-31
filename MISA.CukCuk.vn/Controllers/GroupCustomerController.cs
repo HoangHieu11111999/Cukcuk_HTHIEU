@@ -11,7 +11,7 @@ namespace MISA.CukCuk.Controllers
 {
     [Route("/[controller]")]
     [ApiController]
-    public class GroupCustomerController : BaseController<GroupCustomer>
+    public class GroupCustomerController 
     {
        
     }

@@ -44,17 +44,74 @@ namespace MISA.CukCuk.Controllers
         }
 
         /// <summary>
-        /// Lấy ra thông tin khách hàng theo mã khách hàng
+        /// Lấy ra tổng số Khách hàng trong hệ thống theo từng mốc thời gian theo mã khách hàng
         /// createdby: HTHIEU (17/12/2019)
         /// </summary>
         /// <param name="rangeTime">thời gian khách hàng cần được lấy ra thông tin</param>
         /// <returns></returns>
         // GET:/Base/5
-        [HttpGet("{customerRunTime}")]
-        public virtual Customer GetCustomerRunTime(string rangeTime)
+        [HttpPost("{customerAllTime}")]
+        public virtual Customer GetCustomerAllTime()
         {
+            int rangeTime = 1;
             return baseBL.GetCustomersRunTime(rangeTime);
         }
+        /// <summary>
+        /// Lấy ra tổng số Khách hàng trong hệ thống theo từng mốc thời gian theo mã khách hàng
+        /// createdby: HTHIEU (17/12/2019)
+        /// </summary>
+        /// <param name="rangeTime">thời gian khách hàng cần được lấy ra thông tin</param>
+        /// <returns></returns>
+        // GET:/Base/5
+        [HttpPost("{customerOneWeek}")]
+        public virtual Customer GetCustomerOneWeek()
+        {
+            int rangeTime = 2;
+            return baseBL.GetCustomersRunTime(rangeTime);
+        }
+        /// <summary>
+        /// Lấy ra tổng số Khách hàng trong hệ thống theo từng mốc thời gian theo mã khách hàng
+        /// createdby: HTHIEU (17/12/2019)
+        /// </summary>
+        /// <param name="rangeTime">thời gian khách hàng cần được lấy ra thông tin</param>
+        /// <returns></returns>
+        // GET:/Base/5
+        [HttpPost("{customerOneMonth}")]
+        public virtual Customer GetCustomerOneMonth()
+        {
+            int rangeTime = 3;
+            return baseBL.GetCustomersRunTime(rangeTime);
+        }
+
+        /// <summary>
+        /// Lấy ra tổng số Khách hàng trong hệ thống theo từng mốc thời gian theo mã khách hàng
+        /// createdby: HTHIEU (17/12/2019)
+        /// </summary>
+        /// <param name="rangeTime">thời gian khách hàng cần được lấy ra thông tin</param>
+        /// <returns></returns>
+        // GET:/Base/5
+        [HttpPost("{customerSixMonth}")]
+        public virtual Customer GetCustomerSixMonth()
+        {
+            int rangeTime = 4;
+            return baseBL.GetCustomersRunTime(rangeTime);
+        }
+
+        /// <summary>
+        /// Lấy ra tổng số Khách hàng trong hệ thống theo từng mốc thời gian theo mã khách hàng
+        /// createdby: HTHIEU (17/12/2019)
+        /// </summary>
+        /// <param name="rangeTime">thời gian khách hàng cần được lấy ra thông tin</param>
+        /// <returns></returns>
+        // GET:/Base/5
+        [HttpPost("{customerOneYear}")]
+        public virtual Customer GetCustomerOneYear()
+        {
+            int rangeTime = 5;
+            return baseBL.GetCustomersRunTime(rangeTime);
+        }
+
+
 
         // POST: /Base
         /// <summary>
