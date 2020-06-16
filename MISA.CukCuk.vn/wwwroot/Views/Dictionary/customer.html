@@ -64,11 +64,11 @@
     <div class="menu" style="display:block;">
         <div class="menu-item summary" >
             <div class="icon"></div>
-            <div class="title" >Tổng quan</a></div>
+            <div class="title" ><a href="dashboard.html" style="text-decoration:none; color:antiquewhite">Tổng quan</a></div>
         </div>
         <div class="menu-item report">
             <div class="icon"></div>
-            <div class="title"><a href="dashboard.html" style="text-decoration:none; color:antiquewhite">Báo cáo</a></div>
+            <div class="title"><a >Khách hàng</a></div>
         </div>
         <div class="menu-item buy">
             <div class="icon"></div>
@@ -366,31 +366,27 @@
         <!-- Tạo paging cho table -->
         <div class="toolbar-paging">
             <div class="toolbar-paging-left">
-                <div class="icon-toolbar-paging icon-come-back-many-times"></div>
-                <div class="icon-toolbar-paging icon-come-back"></div>
+                <div class="icon-toolbar-paging icon-come-back-many-times" id="icon-come-back-many-times"></div>
+                <div class="icon-toolbar-paging icon-come-back" id="icon-come-back"></div>
                 <div class="text-toolbar-paging-left-1">Trang</div>
                 <div class="number-page">
-                    <input type="text" placeholder="1" />
+                    <input type="text" placeholder="1" id="page" value="1" />
                 </div>
-                <div class="text-toolbar-paging-left-2">trên 1</div>
-                <div class="icon-toolbar-paging icon-next"></div>
-                <div class="icon-toolbar-paging icon-next-many-times"></div>
-                <div class="icon-toolbar-paging icon-reload"></div>
+                <div class="icon-toolbar-paging icon-next" id="icon-next"></div>
+                <div class="icon-toolbar-paging icon-next-many-times" id="icon-many-next"></div>
+                <div class="icon-toolbar-paging icon-reload" id="icon-reload"></div>
                 <div class="icon-toolbar-paging select-option">
-                    <select>
-                        <option>25</option>
-                        <option>50</option>
-                        <option>100</option>
-                        <option>200</option>
-                        <option>300</option>
-                        <option>500</option>
-                        <option>700</option>
-                        <option>1000</option>
+                    <select id="pageTotal">
+                        <option class="btn-option-size" value="25">25</option>
+                        <option class="btn-option-size" value="50">50</option>
+                        <option class="btn-option-size" value="100">100</option>
+                        <option class="btn-option-size" value="200">200</option>
+                        <option class="btn-option-size" value="300">300</option>
+                        
                     </select>
                 </div>
             </div>
             <div class="toolbar-paging-right">
-                <div class="text-toolbar-paging-right">Hiển thị kết quả 1/19</div>
             </div>
         </div>
     </div>
@@ -415,10 +411,10 @@
                     <div class="row-dialog column-one ">
                         <div class="text-note">Nhóm khách hàng</div>
                         <div class="input-dialog">
-                            <select>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
+                            <select findName="GroupCustomerID">
+                                <option value="EB88F22D-5B07-477C-752D-18395A5D4EB6">Vip</option>
+                                <option value="D0A77A1B-AC6C-B7DE-F156-19610E475D76">Tiềm năng</option>
+                                <option value="CD71DFD0-565E-E884-8F36-2992805A8180">Bình thường</option>
                             </select>
                         </div>
                     </div>
@@ -426,7 +422,7 @@
                         <div class="text-note">Tên khách hàng <span style="color:red;">(*)</span></div>
                         <div class="input-dialog">
                             <select findName="GroupCustomerID">
-                                <option value="EB88F22D-5B07-477C-752D-18395A5D4EB6">0</option>
+                                <option value="EB88F22D-5B07-477C-752D-18395A5D4EB6"></option>
                                 <option value="D0A77A1B-AC6C-B7DE-F156-19610E475D76">1</option>
                                 <option value="CD71DFD0-565E-E884-8F36-2992805A8180">2</option>
                             </select>

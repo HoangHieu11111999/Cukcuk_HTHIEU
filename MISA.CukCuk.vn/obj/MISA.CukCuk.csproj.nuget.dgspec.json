@@ -226,6 +226,34 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "Auth0.ManagementApi": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "EO.WebBrowser": {
+              "target": "Package",
+              "version": "[20.1.45, )"
+            },
+            "IKVM": {
+              "target": "Package",
+              "version": "[8.1.5717, )"
+            },
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Azure.ActiveDirectory.GraphClient": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -236,9 +264,17 @@
               "target": "Package",
               "version": "[3.0.0, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.6.0, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.6.0, )"
             }
           },
           "imports": [

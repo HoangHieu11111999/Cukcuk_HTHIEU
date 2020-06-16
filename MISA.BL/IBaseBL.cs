@@ -11,7 +11,7 @@ namespace MISA.BL
         /// </summary>
         /// createdby : HTHIEU (20/12/2019)
         /// <returns></returns>
-        List<T> GetCustomers();
+        List<T> GetCustomers(int PageNumber,int PageSize);
 
         /// <summary>
         /// hàm lấy dữ liệu khách hàng theo mã khách hàng

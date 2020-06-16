@@ -29,3 +29,4 @@ C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\Common\obj\Debug\netcoreapp3.0\Comm
 C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\Common\obj\Debug\netcoreapp3.0\Common.AssemblyInfo.cs
 C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\Common\obj\Debug\netcoreapp3.0\Common.dll
 C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\Common\obj\Debug\netcoreapp3.0\Common.pdb
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\Common\obj\Debug\netcoreapp3.0\Common.csprojAssemblyReference.cache

@@ -25,9 +25,9 @@ namespace MISA.CukCuk.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet]
-        public virtual List<Customer> GetCustomer()
+        public virtual List<Customer> GetCustomer(int PageNumber , int PageSize)
         {
-            return baseBL.GetCustomers();
+            return baseBL.GetCustomers(PageNumber, PageSize);
         }
 
         /// <summary>
@@ -50,8 +50,8 @@ namespace MISA.CukCuk.Controllers
         /// <param name="rangeTime">thời gian khách hàng cần được lấy ra thông tin</param>
         /// <returns></returns>
         // GET:/Base/5
-        [HttpPost("{customerAllTime}")]
-        public virtual Customer GetCustomerAllTime()
+        [HttpPost("AllTime")]
+        public  Customer AllTime()
         {
             int rangeTime = 1;
             return baseBL.GetCustomersRunTime(rangeTime);
@@ -63,10 +63,10 @@ namespace MISA.CukCuk.Controllers
         /// <param name="rangeTime">thời gian khách hàng cần được lấy ra thông tin</param>
         /// <returns></returns>
         // GET:/Base/5
-        [HttpPost("{customerOneWeek}")]
-        public virtual Customer GetCustomerOneWeek()
+        [HttpPost("OneWeek")]
+        public  Customer OneWeek()
         {
-            int rangeTime = 2;
+            int rangeTime = 5;
             return baseBL.GetCustomersRunTime(rangeTime);
         }
         /// <summary>
@@ -76,10 +76,10 @@ namespace MISA.CukCuk.Controllers
         /// <param name="rangeTime">thời gian khách hàng cần được lấy ra thông tin</param>
         /// <returns></returns>
         // GET:/Base/5
-        [HttpPost("{customerOneMonth}")]
-        public virtual Customer GetCustomerOneMonth()
+        [HttpPost("OneMonth")]
+        public  Customer OneMonth()
         {
-            int rangeTime = 3;
+            int rangeTime = 2;
             return baseBL.GetCustomersRunTime(rangeTime);
         }
 
@@ -90,8 +90,8 @@ namespace MISA.CukCuk.Controllers
         /// <param name="rangeTime">thời gian khách hàng cần được lấy ra thông tin</param>
         /// <returns></returns>
         // GET:/Base/5
-        [HttpPost("{customerSixMonth}")]
-        public virtual Customer GetCustomerSixMonth()
+        [HttpPost("SixMonth")]
+        public  Customer SixMonth()
         {
             int rangeTime = 4;
             return baseBL.GetCustomersRunTime(rangeTime);
@@ -104,11 +104,79 @@ namespace MISA.CukCuk.Controllers
         /// <param name="rangeTime">thời gian khách hàng cần được lấy ra thông tin</param>
         /// <returns></returns>
         // GET:/Base/5
-        [HttpPost("{customerOneYear}")]
-        public virtual Customer GetCustomerOneYear()
+        [HttpPost("OneYear")]
+        public Customer OneYear()
+        {
+            int rangeTime = 3;
+            return baseBL.GetCustomersRunTime(rangeTime);
+        }
+
+        /// <summary>
+        /// Lấy ra tổng số Khách hàng trong hệ thống theo từng mốc thời gian theo mã khách hàng
+        /// createdby: HTHIEU (17/12/2019)
+        /// </summary>
+        /// <param name="rangeTime">thời gian khách hàng cần được lấy ra thông tin</param>
+        /// <returns></returns>
+        // GET:/Base/5
+        [HttpPost("DataChartAllTime")]
+        public List<DataChart>  DataChartAllTime()
+        {
+            int rangeTime = 1;
+            return baseBL.GetDataChartRunTime(rangeTime);
+        }
+        /// <summary>
+        /// Lấy ra tổng số Khách hàng trong hệ thống theo từng mốc thời gian theo mã khách hàng
+        /// createdby: HTHIEU (17/12/2019)
+        /// </summary>
+        /// <param name="rangeTime">thời gian khách hàng cần được lấy ra thông tin</param>
+        /// <returns></returns>
+        // GET:/Base/5
+        [HttpPost("DataChartOneWeek")]
+        public List<DataChart> DataChartOneWeek()
         {
             int rangeTime = 5;
-            return baseBL.GetCustomersRunTime(rangeTime);
+            return baseBL.GetDataChartRunTime(rangeTime);
+        }
+        /// <summary>
+        /// Lấy ra tổng số Khách hàng trong hệ thống theo từng mốc thời gian theo mã khách hàng
+        /// createdby: HTHIEU (17/12/2019)
+        /// </summary>
+        /// <param name="rangeTime">thời gian khách hàng cần được lấy ra thông tin</param>
+        /// <returns></returns>
+        // GET:/Base/5
+        [HttpPost("DataChartOneMonth")] 
+        public List<DataChart> DataChartOneMonth()
+        {
+            int rangeTime = 2;
+            return baseBL.GetDataChartRunTime(rangeTime);
+        }
+
+        /// <summary>
+        /// Lấy ra tổng số Khách hàng trong hệ thống theo từng mốc thời gian theo mã khách hàng
+        /// createdby: HTHIEU (17/12/2019)
+        /// </summary>
+        /// <param name="rangeTime">thời gian khách hàng cần được lấy ra thông tin</param>
+        /// <returns></returns>
+        // GET:/Base/5
+        [HttpPost("DataChartSixMonth")]
+        public List<DataChart> DataChartSixMonth()
+        {
+            int rangeTime = 4;
+            return baseBL.GetDataChartRunTime(rangeTime);
+        }
+
+        /// <summary>
+        /// Lấy ra tổng số Khách hàng trong hệ thống theo từng mốc thời gian theo mã khách hàng
+        /// createdby: HTHIEU (17/12/2019)
+        /// </summary>
+        /// <param name="rangeTime">thời gian khách hàng cần được lấy ra thông tin</param>
+        /// <returns></returns>
+        // GET:/Base/5
+        [HttpPost("DataChartOneYear")]
+        public List<DataChart> DataCharOneYear()
+        {
+            int rangeTime = 3;
+            return baseBL.GetDataChartRunTime(rangeTime);
         }
 
 

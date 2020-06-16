@@ -23,12 +23,12 @@ namespace MISA.DL
         /// </summary>
         /// createdby : HTHIEU (20/12/2019)
         /// <returns></returns>
-        public List<T> GetCustomers()
+        public List<T> GetCustomers(int PageNumber,int PageSize)
         {
             using (DataAccess dataAccess = new DataAccess())
             {
                 
-                return dataAccess.GetCustomers<T>(string.Format("[dbo].[Proc_Get{0}]",name));
+                return dataAccess.GetCustomers<T>(PageNumber, PageSize, string.Format("[dbo].[Proc_GetPagani{0}]",name));
             }
 
         }
@@ -47,10 +47,10 @@ namespace MISA.DL
             }
         }
         /// <summary>
-        /// Hàm lấy dữ liệu theo mã khách hàng
+        /// Hàm lấy dữ liệu tổng số khách hàng theo mốc thời gian
         /// </summary>
         /// createdby : HTHIEU (20/12/2019)
-        /// <param name="CustomerCode">MÃ Khách Hàng</param>
+        /// <param name="rangeTime">Mốc thời gian tương đương  : </param>
         /// <returns></returns>
         public T GetCustomersRunTime(int rangeTime)
         {
@@ -60,6 +60,19 @@ namespace MISA.DL
             }
         }
 
+        /// <summary>
+        /// Hàm lấy dữ liệu theo mã khách hàng
+        /// </summary>
+        /// createdby : HTHIEU (31/05/2020)
+        /// <param name="rangeTime">Mốc thời gian tương đương  : </param>
+        /// <returns></returns>
+        public List<DataChart> GetDataChartRunTime(int rangeTime)
+        {
+            using (DataAccess dataAccess = new DataAccess())
+            {
+                return dataAccess.GetDataChartRunTime(rangeTime, "[dbo].[Proc_GetDataChartRunTime]");
+            }
+        }
 
         public IEnumerable<T> Search(string CustomerName)
         {
@@ -111,6 +124,13 @@ namespace MISA.DL
             }
         }
 
+
+        /// <summary>
+        /// Hàm đăng nhập 
+        /// </summary>
+        /// createdby : HTHIEU (20/12/2019)
+        /// <param name="customer">đối tượng cần sửa</param>
+        /// <returns></returns>
         public int  LoginAdmin(T admin)
         {
             using (DataAccess dataAccess = new DataAccess())

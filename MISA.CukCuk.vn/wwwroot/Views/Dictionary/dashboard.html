@@ -3,11 +3,11 @@
 <head>
     <meta charset="utf-8" />
     <title>CukCuk</title>
-    <link href="/Css/View/Dictionary/customer.css" rel="stylesheet" />
+    
+    <link href="/Css/Library/bootstrap.min.css" rel="stylesheet" />
     <link href="/Contents/vendors/jquery-ui-1.12.1/jquery-ui.css" rel="stylesheet" />
-    <link href="../../Css/Library/all.css" rel="stylesheet" />
-    <link href="../../Css/View/Dictionary/dashboard.css" rel="stylesheet" />
-    <link href="../../Css/Library/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Css/View/Dictionary/dashboard.css" rel="stylesheet" />
+    
 </head>
 <body>
     <!-- Header -->
@@ -68,11 +68,11 @@
     <div class="menu" style="display:block;">
         <div class="menu-item summary">
             <div class="icon"></div>
-            <div class="title"><a href="customer.html" style="text-decoration:none ;  color: whitesmoke; line-height:40px;">Tổng quan</a></div>
+            <div class="title"><a>Tổng quan</a></div>
         </div>
         <div class="menu-item report">
             <div class="icon"></div>
-            <div class="title">Báo cáo</div>
+            <div class="title" ><a href="customer.html" style="text-decoration:none ;  color: whitesmoke; line-height:40px;">Khách hàng</a></div>
         </div>
         <div class="menu-item buy">
             <div class="icon"></div>
@@ -148,100 +148,64 @@
             </div>
         </div>
         <div id="statistic-overview">
-            <div class="statistic statistic-total">
-                <div>
-                    <i class="fas fa-users"></i>
-                    <span class="title-statistic"> Tổng số User</span>
-                </div>
-                <div class="number-User">
-                    40.000
-                </div>
-            </div>
-            <div class="statistic statistic-one-week">
-                <div>
-                    <i class="fas fa-users"></i>
-                    <span class="title-statistic"> Tổng số User 7 ngày</span>
-                </div>
-                <div class="number-User">
-                    40.000
-                </div>
-            </div>
-            <div class="statistic statistic-one-month">
-                <div>
-                    <i class="fas fa-users"></i>
-                    <span class="title-statistic"> Tổng số User 30 ngày</span>
-                </div>
-                <div class="number-User">
-                    40.000
-                </div>
-            </div>
-            <div class="statistic statistic-six-month">
-                <div>
-                    <i class="fas fa-users"></i>
-                    <span class="title-statistic"> Tổng số User 6 tháng</span>
-                </div>
-                <div class="number-User">
-                    40.000
-                </div>
-            </div>
-            <div class="statistic statistic-one-year">
-                <div>
-                    <i class="fas fa-users"></i>
-                    <span class="title-statistic"> Tổng số User 365 ngày</span>
-                </div>
-                <div class="number-User">
-                    40.000
-                </div>
-            </div>
-        </div>
 
+
+
+
+
+        </div>
 
         <div class="row" style="margin-top:12px;margin:12px;">
             <div class="col-md-6">
                 <div class="card">
-                    <div class="card-header">
-                        Tổng số khách hàng 6 tháng gần nhất
-                    </div>
-                    <div class="card-body">
-                        <canvas id="myChart2"></canvas>
-                    </div>
-                </div>
-
-            </div>
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-header">
-                        Tổng số khách hàng 1 năm gần nhất
-                    </div>
-                    <div class="card-body">
-                        <canvas id="myChart3"></canvas>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row" style="margin-top:12px;margin:12px;">
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-header">
+                    <div class="card-header" style="font-weight:bold ; color : black ;font-size: 15px !important" >
+                        <i class="fas fa-user-friends" style="margin-right:5px"></i>
                         Tổng số khách hàng 7 ngày gần nhất
                     </div>
                     <div class="card-body">
-                        <canvas id="myChart4"></canvas>
+                        <canvas id="OneWeek"></canvas>
                     </div>
                 </div>
 
             </div>
             <div class="col-md-6">
                 <div class="card">
-                    <div class="card-header">
+                    <div class="card-header" style="font-weight:bold ; color : black ;font-size: 15px !important">
+                        <i class="fas fa-user-friends" style="margin-right:5px"></i>
                         Tổng số khách hàng 30 ngày gần nhất
                     </div>
                     <div class="card-body">
-                        <canvas id="myChart"></canvas>
+                        <canvas id="OneMonth"></canvas>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="row" style="margin-top:12px;margin:12px;">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header" style="font-weight:bold ; color : black ;font-size: 15px !important">
+                        <i class="fas fa-user-friends" style="margin-right:5px"></i>
+                        Tổng số khách hàng 6 tháng gần nhất
+                    </div>
+                    <div class="card-body">
+                        <canvas style="height: 60px !important" id="SixMonth"></canvas>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header" style="font-weight:bold ; color : black ;font-size: 15px !important">
+                        <i class="fas fa-user-friends" style="margin-right:5px"></i>
+                        Tổng số khách hàng 1 năm gần nhất
+                    </div>
+                    <div class="card-body">
+                        <canvas style="height: 60px !important" id="OneYear"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
     <!-- Tạo dialog cho trang customer -->
     <div class="dialog-demo" style=" display : none;">
@@ -264,10 +228,10 @@
                     <div class="row-dialog column-one ">
                         <div class="text-note">Nhóm khách hàng</div>
                         <div class="input-dialog">
-                            <select>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
+                            <select findName="GroupCustomerID">
+                                <option value="EB88F22D-5B07-477C-752D-18395A5D4EB6">0</option>
+                                <option value="D0A77A1B-AC6C-B7DE-F156-19610E475D76">1</option>
+                                <option value="CD71DFD0-565E-E884-8F36-2992805A8180">2</option>
                             </select>
                         </div>
                     </div>
@@ -383,9 +347,9 @@
     </div>
     <script src="/Scripts/libraries/jquery-3.4.1.min.js"></script>
     <script src="/Contents/vendors/jquery-ui-1.12.1/jquery-ui.js"></script>
-    <script src="/Scripts/views/dictionary/Base.js"></script>
+    <!--<script src="/Scripts/views/dictionary/Base.js"></script>-->
     <script src="../../Scripts/common/common1.js"></script>
-    <script src="/Scripts/views/dictionary/customer.js"></script>
+    <!--<script src="/Scripts/views/dictionary/customer.js"></script>-->
     <script src="../../Scripts/libraries/all.js"></script>
     <script src="../../Scripts/views/dictionary/dashboard.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>

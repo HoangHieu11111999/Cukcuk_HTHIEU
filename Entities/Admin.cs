@@ -16,5 +16,6 @@ namespace Entities
         /// </summary>
         public string PassWord { get; set; }
 
+
     }
 }

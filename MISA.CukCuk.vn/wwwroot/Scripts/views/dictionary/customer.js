@@ -44,7 +44,6 @@ class CustomerJS extends Base {
         $("#btn-cf-delete").click(this.delete.bind(this));
         $('#btn-cf-cancel-delete').click(this.cancel1.bind(this));
         $('.style-input.name').keyup(this.Search.bind(this));
-
         $('#btnLogOut').click(function (e) {
             e.preventDefault();
             window.location.href = '/Admin/login.html';
@@ -52,20 +51,179 @@ class CustomerJS extends Base {
         });
     }
 
-    //load
-
+    //loadPagniCustomer
+    //HTHIEU(Createdby)
     load() {
         var me = this;
+        this.loadDataPagani();
+        let count = 1;
+        
+        $("#icon-come-back").click(function () {
+            var pageMiddle = $("#page").val();
+            var pageTotal = $("#pageTotal").val();
+            var pages = $("#page").val();
+            console.log(pageMiddle);
+
+            var page = --pageMiddle;
+            console.log(page);
+            $("#page").val(page);
+            console.log(page);
+            $.ajax({
+                method: "GET",
+                url: "/Customer",
+                dataContent: "application/Json",
+                dataType: "Json",
+                data: {
+                    "PageNumber": page,
+                    "PageSize": pageTotal,
+                },
+
+            }).done(function (data) {
+                if (data.length == 0) {
+                    alert('Trang không có dữ liệu');
+                }
+                $('tbody').empty();
+                me.renderData(data);
+                console.log(data.length)
+                var disTotalCustomer =
+                    `<div class="text-toolbar-paging-right">Hiển thị kết quả ${data.length} bản ghi</div>`
+                $('.toolbar-paging-right').html(disTotalCustomer);
+            });
+        });
+        $("#icon-come-back-many-times").click(function () {
+            var pageMiddle = $("#page").val();
+            var pageTotal = $("#pageTotal").val();
+            var pages = $("#page").val();
+            console.log(pageMiddle);
+
+            var page = parseInt(pageMiddle) - 2  ;
+            console.log(page);
+            $("#page").val(page);
+            console.log(page);
+            $.ajax({
+                method: "GET",
+                url: "/Customer",
+                dataContent: "application/Json",
+                dataType: "Json",
+                data: {
+                    "PageNumber": page,
+                    "PageSize": pageTotal,
+                },
+
+            }).done(function (data) {
+                if (data.length == 0) {
+                    alert('Trang không có dữ liệu');
+                }
+                $('tbody').empty();
+                me.renderData(data);
+                console.log(data.length)
+                var disTotalCustomer =
+                    `<div class="text-toolbar-paging-right">Hiển thị kết quả ${data.length} bản ghi</div>`
+                $('.toolbar-paging-right').html(disTotalCustomer);
+            });
+        });
+        $("#icon-many-next").click(function () {
+            var pageMiddle = $("#page").val();
+            var pageTotal = $("#pageTotal").val();
+            var pages = $("#page").val();
+            console.log(pageMiddle);
+
+            var page = parseInt(pageMiddle) + 2;
+            console.log(page);
+            $("#page").val(page);
+            console.log(page);
+            $.ajax({
+                method: "GET",
+                url: "/Customer",
+                dataContent: "application/Json",
+                dataType: "Json",
+                data: {
+                    "PageNumber": page,
+                    "PageSize": pageTotal,
+                },
+
+            }).done(function (data) {
+                if (data.length == 0) {
+                    alert('Trang không có dữ liệu');
+                }
+                $('tbody').empty();
+                me.renderData(data);
+                console.log(data.length)
+                var disTotalCustomer =
+                    `<div class="text-toolbar-paging-right">Hiển thị kết quả ${data.length} bản ghi</div>`
+                $('.toolbar-paging-right').html(disTotalCustomer);
+            });
+        });
+        $("#icon-next").click(function () {
+            var pageMiddle = $("#page").val();
+            var pageTotal = $("#pageTotal").val();
+            var pages = $("#page").val();
+            console.log(typeof(pageMiddle));
+
+            var page = ++pageMiddle;
+            console.log(page);
+            $("#page").val(page);
+            console.log(page);
+            $.ajax({
+                method: "GET",
+                url: "/Customer",
+                dataContent: "application/Json",
+                dataType: "Json",
+                data: {
+                    "PageNumber": page,
+                    "PageSize": pageTotal,
+                },
+
+            }).done(function (data) {
+                if (data.length == 0) {
+                    alert('Trang không có dữ liệu');
+                }
+                $('tbody').empty();
+                me.renderData(data);
+                console.log(data.length)
+                var disTotalCustomer =
+                    `<div class="text-toolbar-paging-right">Hiển thị kết quả ${data.length} bản ghi</div>`
+                $('.toolbar-paging-right').html(disTotalCustomer);
+            });
+        });
+        $("#icon-reload").click(function () {
+            me.loadDataPagani();
+        })
+        $("#pageTotal").click( function () {
+            me.loadDataPagani();
+
+
+        })
+        
+    }
+
+    loadDataPagani() {
+        var me = this;
+        var pageTotal = $("#pageTotal").val();
+        var page = $("#page").val();
+        console.log(pageTotal);
         $.ajax({
             method: "GET",
             url: "/Customer",
             dataContent: "application/Json",
             dataType: "Json",
-            data: "",
+            data: {
+                "PageNumber": page,
+                "PageSize": pageTotal,
+            },
 
         }).done(function (data) {
+            if (data.length == 0) {
+                alert('Trang không có dữ liệu');
+            }
+            $('tbody').empty();
             me.renderData(data);
+            var disTotalCustomer =
+                `<div class="text-toolbar-paging-right">Hiển thị kết quả ${data.length} bản ghi</div>`
+            $('.toolbar-paging-right').html(disTotalCustomer);
+
         });
+
     }
     /**
     * tạo form dialog thêm thông tin khách hàng
@@ -104,6 +262,7 @@ class CustomerJS extends Base {
                     success: function (res) {
                         $('tbody').empty();
                         me.clearFormDialog();
+                        alert(`"Đã thêm thành công Mã KH :"` + $("#txtID")); 
                         //me.FormCustomerDetail.dialog('close');
                         me.load();
                     },
@@ -124,6 +283,7 @@ class CustomerJS extends Base {
                     success: function (res) {
                         $('tbody').empty();
                         me.clearFormDialog();
+                        alert(`Đã sửa thành công MÃ KH : ${self._Code}`);
                         //me.FormCustomerDetail.dialog('close');
                         me.load();
                     },
@@ -159,6 +319,7 @@ class CustomerJS extends Base {
             success: function (res) {
                     me.openDialogDeletes.dialog('close');
                 $('tbody').empty();
+                alert(`Đã xáo thành công Tên KH : ${self._Name} có Mã KH : ${self._Code}`)
                 me.load();
             },
             error: function (res) {
@@ -417,12 +578,17 @@ class CustomerJS extends Base {
         var fields = $('.content-dialog-top input,textarea[findName]');
         // lấy dữ liệu khách hàng tường ứng 
         try {
+            var pageTotal = $("#pageTotal").val();
+            var page = $("#page").val();
             $.ajax({
                 method: "GET",
                 url: "/Customer",
                 dataContent: "application/Json",
                 dataType: "Json",
-                data: "",
+                data: {
+                    "PageNumber": page,
+                    "PageSize": pageTotal
+                },
             }).done(function (data) {
                 if (data) {
                     $.each(data, function (index, customer) {

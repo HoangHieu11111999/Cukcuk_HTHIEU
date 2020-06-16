@@ -30,20 +30,24 @@ namespace MISA.DL
             _sqlCommand.CommandType = System.Data.CommandType.StoredProcedure;
             _sqlConnection.Open();
         }
-         
-      
         #endregion
 
+
+
         /// <summary>
-        /// Lấy danh sách khách hàng
+        /// Lấy danh sách khách hàng có phân trang
         /// createdby: HTHIEU (16/12/2019)
         /// </summary>
         /// <returns></returns>
-        public List<T> GetCustomers<T>(string storeName)
+        public List<T> GetCustomers<T>(int PageNumber , int PageSize, string storeName)
         {
             List<T> customers = new List<T>();
            
             _sqlCommand.CommandText = storeName;
+            SqlCommandBuilder.DeriveParameters(_sqlCommand);
+            var sqlParameters = _sqlCommand.Parameters;
+            sqlParameters[1].Value = PageNumber;
+            sqlParameters[2].Value = PageSize;
             SqlDataReader sqlDataReader = _sqlCommand.ExecuteReader();
 
             while (sqlDataReader.Read())
@@ -66,6 +70,11 @@ namespace MISA.DL
 
         }
 
+        /// <summary>
+        /// Tìm kiếm theo tên khách hàng
+        /// createdby: HTHIEU (16/12/2019)
+        /// </summary>
+        /// <returns></returns>
         public IEnumerable<T> Search<T>(string CustomerName, string storeName)
         {
             List<T> customers = new List<T>();
@@ -125,11 +134,11 @@ namespace MISA.DL
         }
 
         /// <summary>
-        /// Hàm lấy ra thông tin khách hàng từ MÃ khách hàng
+        /// Hàm lấy ra thông tin tổng số khách hàng trong hệ thống
         /// createdby: HTHIEU (16/12/2019)
         /// </summary>
-        /// <param name="CustomerCode">Mã khách hàng </param>
-        /// <returns></returns>
+        /// <param name="rangeTime">khoảng thời gian</param>
+        /// <returns></returns >
         public T GetCustomersRunTime<T>(int rangeTime, string storeName)
         {
             T customer = Activator.CreateInstance<T>();
@@ -151,8 +160,43 @@ namespace MISA.DL
                         property.SetValue(customer, fieldValue);
                     }
                 }
+               
             }
             return customer;
+        }
+
+        /// <summary>
+        /// Hàm lấy ra thông tin khách hàng cho biểu đồ chart
+        /// createdby: HTHIEU (16/12/2019)
+        /// </summary>
+        /// <param name="rangeTime">Khoảng thời gian</param>
+        /// <returns></returns >
+        public List<DataChart> GetDataChartRunTime(int rangeTime, string storeName)
+        {
+
+            List<DataChart> dataCharts = new List<DataChart>();
+            _sqlCommand.CommandText = storeName;
+            SqlCommandBuilder.DeriveParameters(_sqlCommand);
+            var sqlParameters = _sqlCommand.Parameters;
+            sqlParameters[1].Value = rangeTime;
+            SqlDataReader sqlDataReader = _sqlCommand.ExecuteReader();
+            while (sqlDataReader.Read())
+            {
+                DataChart customer = new DataChart();
+                
+                for (int i = 0; i < sqlDataReader.FieldCount; i++)
+                {
+                    var fieldName = sqlDataReader.GetName(i);
+                    var fieldValue = sqlDataReader.GetValue(i);
+                    var property = customer.GetType().GetProperty(fieldName);
+                    if (property != null && fieldValue != DBNull.Value)
+                    {
+                        property.SetValue(customer, fieldValue);
+                    }
+                }
+                dataCharts.Add(customer);
+            }
+            return dataCharts;
         }
 
         /// <summary>
@@ -234,6 +278,11 @@ namespace MISA.DL
             return result;
         }
 
+
+        /// <summary>
+        /// khởi đăng nhập login cho admin
+        /// createdby HTHIEU(18/12/2019)
+        /// </summary>
         public int LoginAdmin<T>(T admin,string storeName)
         {
             _sqlCommand.CommandText = storeName;

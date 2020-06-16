@@ -18,9 +18,9 @@ namespace MISA.BL
         /// createdby : HTHIEU (17/12/2019)
         /// </summary>
         /// <returns></returns>
-        public List<T> GetCustomers()
+        public List<T> GetCustomers(int PageNumber , int PageSize)
         {
-            return customerDL.GetCustomers();
+            return customerDL.GetCustomers(PageNumber, PageSize);
         }
 
         /// <summary>
@@ -38,11 +38,21 @@ namespace MISA.BL
         /// Lấy ra thông tin khách hàng từ mã khách hàng
         /// createdby : HTHIEU(17/12/2019)
         /// </summary>
-        /// <param name="CustomerCode"></param>
+        /// <param name="rangeTime"></param>
         /// <returns></returns>
         public T GetCustomersRunTime(int rangeTime)
         {
             return customerDL.GetCustomersRunTime(rangeTime);
+        }
+        /// <summary>
+        /// Lấy ra thông tin khách hàng từ mã khách hàng
+        /// createdby : HTHIEU(17/12/2019)
+        /// </summary>
+        /// <param name="rangeTime"></param>
+        /// <returns></returns>
+        public List<DataChart> GetDataChartRunTime(int rangeTime)
+        {
+            return customerDL.GetDataChartRunTime(rangeTime);
         }
 
         /// <summary>

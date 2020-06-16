@@ -84,12 +84,12 @@ namespace Entities
         /// <summary>
         /// mã nhóm khách hàng
         /// </summary>
-        public Guid GroupCustomerID { get; set; }
+        public Guid? GroupCustomerID { get; set; }
 
         /// <summary>
         /// ngày sửa
         /// </summary>
-        public DateTime ModifiedDate { get; set; }
+        public DateTime? ModifiedDate { get; set; }
 
         /// <summary>
         /// Người sửa
@@ -97,5 +97,11 @@ namespace Entities
         public string ModifiedBy { get; set; }
 
         public int Toltal { get; set; }
+        /// <summary>
+        /// ngày sửa
+        /// </summary>
+        public DateTime? CreatedDate { get; set; }
+
+        public int totalrow { get; set; }
     }
 }

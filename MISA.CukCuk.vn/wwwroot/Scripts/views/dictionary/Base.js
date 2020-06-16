@@ -17,6 +17,7 @@ class Base {
         var me = this;
         let loading = $('.lds-spinner');
         $('.table-content').empty();
+        console.log(data);
                 if (data) {
                     var customer = data;
                     var listFieldNames = $('.master-table th');
@@ -60,7 +61,6 @@ class Base {
                             tr.append(td);
                         });
                         $('.table-content').append(tr);
-                        $(loading).css('display', 'none');
 
                     });
                     //Hàm xử lý sự kiện select 
