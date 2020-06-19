@@ -45,9 +45,9 @@ namespace MISA.CukCuk.Controllers
 
         [HttpGet("loginAdmin")]
         [AllowAnonymous]
-        public object LoginAdmin([FromQuery]Admin admin)
+        public object LoginAdmin([FromQuery]string UserName,[FromQuery]string PassWord)
         {
-            string resultToken =  _userService.Authenticate(admin);
+            string resultToken =  _userService.Authenticate(UserName, PassWord);
             if (resultToken == null)
             {
                 return null;

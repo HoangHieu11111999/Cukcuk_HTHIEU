@@ -61,6 +61,9 @@ class dashBoard {
             url: `https://localhost:44381/Customer/AllTime`,
             contentType: 'application/json; charset = utf-8',
             dataType: 'json',
+            headers: {
+                'Authorization': "Bearer " + JSON.parse(sessionStorage.getItem("token"))
+            },
             success: function (res) {
                 var rowToltal = ` <div class="statistic statistic-one-week">
                 <div>
@@ -74,7 +77,7 @@ class dashBoard {
                 $('#statistic-overview').append(rowToltal);
             },
             error: function (err) {
-                alert(err);
+                return window.location.href = '/admin/login.html';
             }
         });
         $.ajax({
@@ -82,6 +85,9 @@ class dashBoard {
             url: `https://localhost:44381/Customer/OneWeek`,
             contentType: 'application/json; charset = utf-8',
             dataType: 'json',
+            headers: {
+                'Authorization': "Bearer " + JSON.parse(sessionStorage.getItem("token"))
+            },
             data: '',
             success: function (res) {
                 var rowToltal = ` <div class="statistic statistic-one-week">
@@ -96,7 +102,6 @@ class dashBoard {
                 $('#statistic-overview').append(rowToltal);
             },
             error: function (err) {
-                alert(err);
             }
         });
         $.ajax({
@@ -104,6 +109,9 @@ class dashBoard {
             url: `https://localhost:44381/Customer/OneMonth`,
             contentType: 'application/json; charset = utf-8',
             dataType: 'json',
+            headers: {
+                'Authorization': "Bearer " + JSON.parse(sessionStorage.getItem("token"))
+            },
             data: '',
             success: function (res) {
                 var rowToltal = ` <div class="statistic statistic-one-month">
@@ -118,7 +126,6 @@ class dashBoard {
                 $('#statistic-overview').append(rowToltal);
             },
             error: function (err) {
-                alert(err);
             }
         });
         $.ajax({
@@ -126,6 +133,9 @@ class dashBoard {
             url: `https://localhost:44381/Customer/SixMonth`,
             contentType: 'application/json; charset = utf-8',
             dataType: 'json',
+            headers: {
+                'Authorization': "Bearer " + JSON.parse(sessionStorage.getItem("token"))
+            },
             data: '',
             success: function (res) {
                 var rowToltal = `            <div class="statistic statistic-six-month">
@@ -140,7 +150,6 @@ class dashBoard {
                 $('#statistic-overview').append(rowToltal);
             },
             error: function (err) {
-                alert(err);
             }
         });
         $.ajax({
@@ -148,6 +157,9 @@ class dashBoard {
             url: `https://localhost:44381/Customer/OneYear`,
             contentType: 'application/json; charset = utf-8',
             dataType: 'json', 
+            headers: {
+                'Authorization': "Bearer " + JSON.parse(sessionStorage.getItem("token"))
+            },
             data: '',
             success: function (res) {
                 var rowToltal = `<div class="statistic statistic-one-year">
@@ -162,7 +174,6 @@ class dashBoard {
                 $('#statistic-overview').append(rowToltal);
             },
             error: function (err) {
-                alert(err);
             }
         });
         $.ajax({
@@ -170,6 +181,9 @@ class dashBoard {
             url: `https://localhost:44381/Customer/DataChartOneMonth`,
             contentType: 'application/json; charset = utf-8',
             dataType: 'json',
+            headers: {
+                'Authorization': "Bearer " + JSON.parse(sessionStorage.getItem("token"))
+            },
             data: '',
             success: function(res) {
                 var color = [];
@@ -219,7 +233,6 @@ class dashBoard {
                 });
             },
             error: function (err) {
-                alert(err);
             }
         });
         $.ajax({
@@ -227,6 +240,9 @@ class dashBoard {
             url: `https://localhost:44381/Customer/DataChartOneWeek`,
             contentType: 'application/json; charset = utf-8',
             dataType: 'json',
+            headers: {
+                'Authorization': "Bearer " + JSON.parse(sessionStorage.getItem("token"))
+            },
             data: '',
             success: function (res) {
                 var response = [];
@@ -283,7 +299,6 @@ class dashBoard {
                 });
             },
             error: function (err) {
-                alert(err);
             }
         });
         $.ajax({
@@ -291,6 +306,9 @@ class dashBoard {
             url: `https://localhost:44381/Customer/DataChartOneYear`,
             contentType: 'application/json; charset = utf-8',
             dataType: 'json',
+            headers: {
+                'Authorization': "Bearer " + JSON.parse(sessionStorage.getItem("token"))
+            },
             data: '',
             success: function(res) {
                 var color = [];
@@ -359,7 +377,6 @@ class dashBoard {
                 });
             },
             error: function (err) {
-                alert(err);
             }
         });
         $.ajax({
@@ -367,6 +384,9 @@ class dashBoard {
             url: `https://localhost:44381/Customer/DataChartSixMonth`,
             contentType: 'application/json; charset = utf-8',
             dataType: 'json',
+            headers: {
+                'Authorization': "Bearer " + JSON.parse(sessionStorage.getItem("token"))
+            },
             data: '',
             success: function(res) {
                 var color = [];
@@ -416,7 +436,6 @@ class dashBoard {
                 });
             },
             error: function (err) {
-                alert(err);
             }
         });
     }

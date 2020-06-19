@@ -9,9 +9,9 @@ namespace MISA.BL
     public class AdminBL 
     {
         BaseDL<Admin> customerDL = new BaseDL<Admin>();
-        public  int LoginAdmin(Admin admin)
+        public  int LoginAdmin(string UserName, string PassWord)
         {
-            return customerDL.LoginAdmin(admin);
+            return customerDL.LoginAdmin(UserName,PassWord);
         }
     }
 }

@@ -51,6 +51,6 @@ namespace MISA.DL
         /// createdby : HTHIEU (13/04/2020)
         /// <param name="admin"></param>
         /// <returns></returns>
-        int LoginAdmin(T admin);
+        int LoginAdmin(string UserName,string PassWord);
     }
 }

@@ -8,7 +8,7 @@ namespace MISA.CukCuk.Controllers
 {
     public interface IUserService
     {
-        string Authenticate(Admin admin);
+        string Authenticate(string UserName, string PassWord);
 
     }
 }

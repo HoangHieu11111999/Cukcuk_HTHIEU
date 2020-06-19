@@ -131,11 +131,11 @@ namespace MISA.DL
         /// createdby : HTHIEU (20/12/2019)
         /// <param name="customer">đối tượng cần sửa</param>
         /// <returns></returns>
-        public int  LoginAdmin(T admin)
+        public int  LoginAdmin(string UserName, string PassWord)
         {
             using (DataAccess dataAccess = new DataAccess())
             {
-                return dataAccess.LoginAdmin<T>(admin,string.Format("[dbo].[Proc_Login{0}]", name));
+                return dataAccess.LoginAdmin<T>(UserName, PassWord, string.Format("[dbo].[Proc_Login{0}]", name));
             }
         }
 

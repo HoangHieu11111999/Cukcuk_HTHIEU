@@ -36,18 +36,18 @@
         try {
             $.ajax({
                 type: 'GET',
-                url: `https://localhost:44381/admin/loginAdmin?UserName= + ${username}&PassWord= + ${password}`,
+                url: `https://localhost:44381/admin/loginAdmin?UserName=${username}&PassWord=${password}`,
                 dataType: 'json',
                 contentType: "application/json; charset=utf-8",
                 success: function (data) {
-                    console.log(token);
+                    console.log(data);
                     if (username === '' || username === 'User name' || username.length <= 4) {
                         return $('#txtValid').text('You must enter User name!');
                     }
                     else if (password == '' || password == 'Password' || password.length <= 4) {
                         return $('#txtValid').text('You must enter Password!');
                     }
-                    localStorage.setItem('token', JSON.stringify(data.token));
+                    sessionStorage.setItem('token', JSON.stringify(data.token));
                          return window.location.href = '/Views/Dictionary/dashboard.html';
                 },
                 error: function (err) {

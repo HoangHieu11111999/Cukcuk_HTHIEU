@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MISA.BL;
@@ -11,6 +12,7 @@ namespace MISA.CukCuk.Controllers
 {
     [Route("/[controller]")]
     [ApiController]
+    [Authorize]
     public class CustomerController
     {
         /// <summary>
@@ -231,12 +233,7 @@ namespace MISA.CukCuk.Controllers
 
         AdminBL adminBL = new AdminBL();
 
-        [HttpPost("loginAdmin")]
-        public int LoginAdmin(Admin admin)
-        {
-
-            return adminBL.LoginAdmin(admin);
-        }
+      
 
     }
 

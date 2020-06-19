@@ -24,16 +24,16 @@ namespace MISA.CukCuk.Controllers
 
         }
         AdminBL adminBL = new AdminBL();
-        public string Authenticate(Admin admin)
+        public string Authenticate(string UserName,string PassWord)
         {
-            var result =  adminBL.LoginAdmin(admin);
+            var result =  adminBL.LoginAdmin(UserName,PassWord);
             if (result == 0)
             {
                 return "0";
             }
             var claims = new[]
             {
-                new Claim(ClaimTypes.Name ,admin.UserName)
+                new Claim(ClaimTypes.Name ,UserName)
             };
             var key =  new SymmetricSecurityKey(Encoding.UTF8.GetBytes("YourKey-2374-OFFKDI940NG7:56753253-tyuw-5769-0921-kfirox29zoxv"));
             var creds = new SigningCredentials(key,SecurityAlgorithms.HmacSha256);

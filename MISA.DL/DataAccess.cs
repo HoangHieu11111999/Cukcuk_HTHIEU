@@ -283,24 +283,13 @@ namespace MISA.DL
         /// khởi đăng nhập login cho admin
         /// createdby HTHIEU(18/12/2019)
         /// </summary>
-        public int LoginAdmin<T>(T admin,string storeName)
+        public int LoginAdmin<T>(string UserName, string PassWord,string storeName)
         {
             _sqlCommand.CommandText = storeName;
             SqlCommandBuilder.DeriveParameters(_sqlCommand);
             var sqlParameters = _sqlCommand.Parameters;
-            foreach (SqlParameter param in sqlParameters)
-            {
-                var paraName = param.ParameterName;
-                // Lấy giá trị của property tương ứng có tên giống tên của tham số trong store 
-                var propertyInfo = admin.GetType().GetProperty(paraName.Replace("@", string.Empty));
-                if (propertyInfo != null)
-                {
-
-                    // gán giá trị lấy vào cho tham số
-                    var propertyValue = propertyInfo.GetValue(admin);
-                    param.Value = propertyValue != null ? propertyValue : string.Empty;
-                }
-            }
+            sqlParameters[1].Value = UserName;
+            sqlParameters[2].Value = PassWord;
             var result = _sqlCommand.ExecuteScalar();
             //_sqlConnection.Close();
             return Convert.ToInt32(result);

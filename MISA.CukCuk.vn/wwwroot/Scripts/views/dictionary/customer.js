@@ -73,10 +73,14 @@ class CustomerJS extends Base {
                 url: "/Customer",
                 dataContent: "application/Json",
                 dataType: "Json",
+                headers: {
+                    'Authorization': "Bearer " + JSON.parse(sessionStorage.getItem("token"))
+                },
                 data: {
                     "PageNumber": page,
                     "PageSize": pageTotal,
                 },
+                
 
             }).done(function (data) {
                 if (data.length == 0) {
@@ -105,6 +109,9 @@ class CustomerJS extends Base {
                 url: "/Customer",
                 dataContent: "application/Json",
                 dataType: "Json",
+                headers: {
+                    'Authorization': "Bearer " + JSON.parse(sessionStorage.getItem("token"))
+                },
                 data: {
                     "PageNumber": page,
                     "PageSize": pageTotal,
@@ -137,6 +144,9 @@ class CustomerJS extends Base {
                 url: "/Customer",
                 dataContent: "application/Json",
                 dataType: "Json",
+                headers: {
+                    'Authorization': "Bearer " + JSON.parse(sessionStorage.getItem("token"))
+                },
                 data: {
                     "PageNumber": page,
                     "PageSize": pageTotal,
@@ -169,6 +179,9 @@ class CustomerJS extends Base {
                 url: "/Customer",
                 dataContent: "application/Json",
                 dataType: "Json",
+                headers: {
+                    'Authorization': "Bearer " + JSON.parse(sessionStorage.getItem("token"))
+                },
                 data: {
                     "PageNumber": page,
                     "PageSize": pageTotal,
@@ -201,16 +214,23 @@ class CustomerJS extends Base {
         var me = this;
         var pageTotal = $("#pageTotal").val();
         var page = $("#page").val();
-        console.log(pageTotal);
+        console.log(sessionStorage.getItem("token"));
+        let token = JSON.parse(sessionStorage.getItem("token"));
         $.ajax({
             method: "GET",
             url: "/Customer",
+            headers: {
+                'Authorization': "Bearer " + JSON.parse(sessionStorage.getItem("token"))
+            },
             dataContent: "application/Json",
             dataType: "Json",
             data: {
                 "PageNumber": page,
                 "PageSize": pageTotal,
             },
+            error: function (err) {
+                return window.location.href = '/admin/login.html';
+            }
 
         }).done(function (data) {
             if (data.length == 0) {
@@ -257,6 +277,9 @@ class CustomerJS extends Base {
                 $.ajax({
                     method: 'POST',
                     url: '/Customer',
+                    headers: {
+                        'Authorization': "Bearer " + JSON.parse(sessionStorage.getItem("token"))
+                    },
                     data: JSON.stringify(object),
                     contentType: 'application/json; charset = utf-8',
                     success: function (res) {
@@ -278,6 +301,9 @@ class CustomerJS extends Base {
                 $.ajax({
                     method: 'PUT',
                     url: '/Customer',
+                    headers: {
+                        'Authorization': "Bearer " + JSON.parse(sessionStorage.getItem("token"))
+                    },
                     data: JSON.stringify(object),
                     contentType: 'application/json; charset = utf-8',
                     success: function (res) {
@@ -315,6 +341,9 @@ class CustomerJS extends Base {
         $.ajax({
             method: 'DELETE',
             url: '/Customer/' + self._ID,
+            headers: {
+                'Authorization': "Bearer " + JSON.parse(sessionStorage.getItem("token"))
+            },
             contentType: 'application/json; charset = utf-8',
             success: function (res) {
                     me.openDialogDeletes.dialog('close');
@@ -352,6 +381,9 @@ class CustomerJS extends Base {
         $.ajax({
             method: 'GET',
             url: '/customer' + id,
+            headers: {
+                'Authorization': "Bearer " + JSON.parse(sessionStorage.getItem("token"))
+            },
             success: function (res) {
                 if (res.Success) {
                     data = res.Data;
@@ -532,6 +564,9 @@ class CustomerJS extends Base {
             url: "/Customer/SearchCustomerName/" + data,
             dataContent: "application/Json",
             dataType: "Json",
+            headers: {
+                'Authorization': "Bearer " + JSON.parse(sessionStorage.getItem("token"))
+            },
             data: {},
         }).done(function (data) {
             me.renderData(data);
@@ -585,6 +620,9 @@ class CustomerJS extends Base {
                 url: "/Customer",
                 dataContent: "application/Json",
                 dataType: "Json",
+                headers: {
+                    'Authorization': "Bearer " + JSON.parse(sessionStorage.getItem("token"))
+                },
                 data: {
                     "PageNumber": page,
                     "PageSize": pageTotal
