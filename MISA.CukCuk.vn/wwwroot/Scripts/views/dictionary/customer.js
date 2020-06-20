@@ -12,6 +12,7 @@ class CustomerJS extends Base {
         this.load();
         this.initForm();
         this.initEvent();
+        this.loadProfileAccount();
         self = this;
     }
 
@@ -49,6 +50,18 @@ class CustomerJS extends Base {
             window.location.href = '/Admin/login.html';
             return;
         });
+    }
+
+    //Hàm render dữ liệu account đăng nhập 
+    //HTHIEU (20/06/2020)
+    loadProfileAccount() {
+        let elementAccount = `<div class="account-avatar"></div>
+                    <div class="account-name"><span>${localStorage.getItem('userName')}</span></div>
+                    <div class="account-action-box hide-outside-click">
+                        <div class="account-action-item"><span class="icon icon-edit"></span>Thay đổi mật khẩu</div>
+                        <div class="account-action-item" id="btnLogOut"><span class="icon icon-logout"></span><a href="../../Admin/login.html" style="text-decoration:none">Ðăng xuất</a></div>
+                    </div>`
+        $('#header-account-box').append(elementAccount);
     }
 
     //loadPagniCustomer

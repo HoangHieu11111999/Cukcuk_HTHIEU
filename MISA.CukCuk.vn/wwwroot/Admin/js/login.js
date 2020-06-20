@@ -48,6 +48,7 @@
                         return $('#txtValid').text('You must enter Password!');
                     }
                     sessionStorage.setItem('token', JSON.stringify(data.token));
+                    localStorage.setItem('userName', data.userName);
                          return window.location.href = '/Views/Dictionary/dashboard.html';
                 },
                 error: function (err) {

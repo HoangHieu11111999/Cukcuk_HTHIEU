@@ -40,7 +40,7 @@ namespace MISA.CukCuk.Controllers
             var token = new JwtSecurityToken(_config["Tokens:Issuer"],
                 _config["Tokens:Issuer"],
                 claims,
-                expires: DateTime.Now.AddHours(3),
+                expires: DateTime.Now.AddMinutes(3),
                 signingCredentials: creds);
             var resultDisp = new JwtSecurityTokenHandler().WriteToken(token);
             return resultDisp;

@@ -52,7 +52,8 @@ namespace MISA.CukCuk.Controllers
             {
                 return null;
             }
-            return Ok(new { token = resultToken });
+            return Ok(new { token = resultToken 
+                            , userName = UserName});
         }
     }
 }
