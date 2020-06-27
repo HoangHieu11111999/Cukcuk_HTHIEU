@@ -50,6 +50,7 @@ class CustomerJS extends Base {
             window.location.href = '/Admin/login.html';
             return;
         });
+
     }
 
     //Hàm render dữ liệu account đăng nhập 
@@ -76,7 +77,6 @@ class CustomerJS extends Base {
             var pageTotal = $("#pageTotal").val();
             var pages = $("#page").val();
             console.log(pageMiddle);
-
             var page = --pageMiddle;
             console.log(page);
             $("#page").val(page);
@@ -93,8 +93,6 @@ class CustomerJS extends Base {
                     "PageNumber": page,
                     "PageSize": pageTotal,
                 },
-                
-
             }).done(function (data) {
                 if (data.length == 0) {
                     alert('Trang không có dữ liệu');
@@ -164,7 +162,6 @@ class CustomerJS extends Base {
                     "PageNumber": page,
                     "PageSize": pageTotal,
                 },
-
             }).done(function (data) {
                 if (data.length == 0) {
                     alert('Trang không có dữ liệu');
@@ -182,7 +179,6 @@ class CustomerJS extends Base {
             var pageTotal = $("#pageTotal").val();
             var pages = $("#page").val();
             console.log(typeof(pageMiddle));
-
             var page = ++pageMiddle;
             console.log(page);
             $("#page").val(page);
@@ -199,7 +195,6 @@ class CustomerJS extends Base {
                     "PageNumber": page,
                     "PageSize": pageTotal,
                 },
-
             }).done(function (data) {
                 if (data.length == 0) {
                     alert('Trang không có dữ liệu');
@@ -212,14 +207,7 @@ class CustomerJS extends Base {
                 $('.toolbar-paging-right').html(disTotalCustomer);
             });
         });
-        $("#icon-reload").click(function () {
-            me.loadDataPagani();
-        })
-        $("#pageTotal").click( function () {
-            me.loadDataPagani();
-
-
-        })
+        
         
     }
 

@@ -1,34 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc\\OneDrive\\Máy tính\\PK_Cuk\\repos\\MISA.DL\\MISA.DL.csproj": {}
+    "D:\\Desktop\\PK_Cuk\\repos\\MISA.DL\\MISA.DL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc\\OneDrive\\Máy tính\\PK_Cuk\\repos\\Common\\Common.csproj": {
+    "D:\\Desktop\\PK_Cuk\\repos\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\OneDrive\\Máy tính\\PK_Cuk\\repos\\Common\\Common.csproj",
+        "projectUniqueName": "D:\\Desktop\\PK_Cuk\\repos\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\pc\\OneDrive\\Máy tính\\PK_Cuk\\repos\\Common\\Common.csproj",
+        "projectPath": "D:\\Desktop\\PK_Cuk\\repos\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\OneDrive\\Máy tính\\PK_Cuk\\repos\\Common\\obj\\",
+        "outputPath": "D:\\Desktop\\PK_Cuk\\repos\\Common\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -39,7 +36,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
           "imports": [
             "net461",
             "net462",
@@ -55,35 +52,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\pc\\OneDrive\\Máy tính\\PK_Cuk\\repos\\Entities\\Entities.csproj": {
+    "D:\\Desktop\\PK_Cuk\\repos\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\OneDrive\\Máy tính\\PK_Cuk\\repos\\Entities\\Entities.csproj",
+        "projectUniqueName": "D:\\Desktop\\PK_Cuk\\repos\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\pc\\OneDrive\\Máy tính\\PK_Cuk\\repos\\Entities\\Entities.csproj",
+        "projectPath": "D:\\Desktop\\PK_Cuk\\repos\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\OneDrive\\Máy tính\\PK_Cuk\\repos\\Entities\\obj\\",
+        "outputPath": "D:\\Desktop\\PK_Cuk\\repos\\Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -94,7 +88,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
           "imports": [
             "net461",
             "net462",
@@ -110,41 +104,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\pc\\OneDrive\\Máy tính\\PK_Cuk\\repos\\MISA.DL\\MISA.DL.csproj": {
+    "D:\\Desktop\\PK_Cuk\\repos\\MISA.DL\\MISA.DL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\OneDrive\\Máy tính\\PK_Cuk\\repos\\MISA.DL\\MISA.DL.csproj",
+        "projectUniqueName": "D:\\Desktop\\PK_Cuk\\repos\\MISA.DL\\MISA.DL.csproj",
         "projectName": "MISA.DL",
-        "projectPath": "C:\\Users\\pc\\OneDrive\\Máy tính\\PK_Cuk\\repos\\MISA.DL\\MISA.DL.csproj",
+        "projectPath": "D:\\Desktop\\PK_Cuk\\repos\\MISA.DL\\MISA.DL.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\OneDrive\\Máy tính\\PK_Cuk\\repos\\MISA.DL\\obj\\",
+        "outputPath": "D:\\Desktop\\PK_Cuk\\repos\\MISA.DL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\pc\\OneDrive\\Máy tính\\PK_Cuk\\repos\\Common\\Common.csproj": {
-                "projectPath": "C:\\Users\\pc\\OneDrive\\Máy tính\\PK_Cuk\\repos\\Common\\Common.csproj"
+              "D:\\Desktop\\PK_Cuk\\repos\\Common\\Common.csproj": {
+                "projectPath": "D:\\Desktop\\PK_Cuk\\repos\\Common\\Common.csproj"
               },
-              "C:\\Users\\pc\\OneDrive\\Máy tính\\PK_Cuk\\repos\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\pc\\OneDrive\\Máy tính\\PK_Cuk\\repos\\Entities\\Entities.csproj"
+              "D:\\Desktop\\PK_Cuk\\repos\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Desktop\\PK_Cuk\\repos\\Entities\\Entities.csproj"
               }
             }
           }
@@ -156,7 +147,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
           "dependencies": {
             "System.Data.SqlClient": {
               "target": "Package",
@@ -178,7 +169,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

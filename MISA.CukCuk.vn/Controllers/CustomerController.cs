@@ -39,7 +39,7 @@ namespace MISA.CukCuk.Controllers
         /// <param name="CustomerCode">Mã khách hàng cần được lấy ra thông tin</param>
         /// <returns></returns>
         // GET:/Base/5
-        [HttpGet("{customerCode}")]
+        [HttpGet("customerCode")]
         public virtual Customer GetCustomerByCode(string CustomerCode)
         {
             return baseBL.GetCustomersByCode(CustomerCode);

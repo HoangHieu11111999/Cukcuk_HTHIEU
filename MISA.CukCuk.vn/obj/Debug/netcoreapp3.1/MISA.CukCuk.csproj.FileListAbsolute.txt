@@ -1,0 +1,412 @@
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\obj\Debug\netcoreapp3.1\MISA.CukCuk.csprojAssemblyReference.cache
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\obj\Debug\netcoreapp3.1\MISA.CukCuk.AssemblyInfoInputs.cache
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\obj\Debug\netcoreapp3.1\MISA.CukCuk.AssemblyInfo.cs
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\obj\Debug\netcoreapp3.1\MISA.CukCuk.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\MISA.CukCuk.exe
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\MISA.CukCuk.deps.json
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\MISA.CukCuk.runtimeconfig.json
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\MISA.CukCuk.runtimeconfig.dev.json
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\MISA.CukCuk.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\MISA.CukCuk.pdb
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Auth0.Core.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Auth0.ManagementApi.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\EO.Base.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\EO.WebBrowser.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\EO.WebEngine.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.AWT.WinForms.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Beans.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Charsets.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Cldrdata.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Corba.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Core.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Jdbc.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Localedata.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Management.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Media.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Misc.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Naming.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Nashorn.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Remoting.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Security.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.SwingAWT.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Text.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Tools.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Util.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.XML.API.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.XML.Bind.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.XML.Crypto.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.XML.Parse.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.XML.Transform.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.XML.WebServices.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.XML.XPath.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.Runtime.JNI.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.Runtime.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.Azure.ActiveDirectory.GraphClient.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.Data.Edm.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.Data.OData.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.Data.Services.Client.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\System.Spatial.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\de\Microsoft.Data.Edm.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\es\Microsoft.Data.Edm.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\it\Microsoft.Data.Edm.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\de\Microsoft.Data.OData.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\es\Microsoft.Data.OData.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\fr\Microsoft.Data.OData.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\it\Microsoft.Data.OData.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ja\Microsoft.Data.OData.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ko\Microsoft.Data.OData.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ru\Microsoft.Data.OData.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\de\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\es\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\it\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\de\System.Spatial.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\es\System.Spatial.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\fr\System.Spatial.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\it\System.Spatial.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ja\System.Spatial.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ko\System.Spatial.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ru\System.Spatial.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hans\System.Spatial.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hant\System.Spatial.resources.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Common.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\MISA.BL.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\MISA.DL.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Common.pdb
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\MISA.BL.pdb
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\MISA.DL.pdb
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\obj\Debug\netcoreapp3.1\MISA.CukCuk.RazorTargetAssemblyInfo.cache
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\obj\Debug\netcoreapp3.1\MISA.CukCuk.csproj.CopyComplete
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\obj\Debug\netcoreapp3.1\staticwebassets\MISA.CukCuk.StaticWebAssets.Manifest.cache
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\obj\Debug\netcoreapp3.1\staticwebassets\MISA.CukCuk.StaticWebAssets.xml
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\obj\Debug\netcoreapp3.1\MISA.CukCuk.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\obj\Debug\netcoreapp3.1\MISA.CukCuk.pdb
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\MISA.CukCuk.vn\obj\Debug\netcoreapp3.1\MISA.CukCuk.genruntimeconfig.cache
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\MISA.CukCuk.exe
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\MISA.CukCuk.deps.json
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\MISA.CukCuk.runtimeconfig.json
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\MISA.CukCuk.runtimeconfig.dev.json
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\MISA.CukCuk.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\MISA.CukCuk.pdb
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Auth0.Core.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Auth0.ManagementApi.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\EO.Base.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\EO.WebBrowser.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\EO.WebEngine.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.AWT.WinForms.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Beans.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Charsets.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Cldrdata.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Corba.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Core.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Jdbc.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Localedata.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Management.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Media.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Misc.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Naming.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Nashorn.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Remoting.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Security.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.SwingAWT.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Text.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Tools.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.Util.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.XML.API.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.XML.Bind.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.XML.Crypto.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.XML.Parse.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.XML.Transform.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.XML.WebServices.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.OpenJDK.XML.XPath.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.Runtime.JNI.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\IKVM.Runtime.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.Azure.ActiveDirectory.GraphClient.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.Data.Edm.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.Data.OData.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.Data.Services.Client.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\System.Spatial.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\de\Microsoft.Data.Edm.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\es\Microsoft.Data.Edm.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\fr\Microsoft.Data.Edm.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\it\Microsoft.Data.Edm.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ja\Microsoft.Data.Edm.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ko\Microsoft.Data.Edm.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ru\Microsoft.Data.Edm.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\de\Microsoft.Data.OData.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\es\Microsoft.Data.OData.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\fr\Microsoft.Data.OData.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\it\Microsoft.Data.OData.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ja\Microsoft.Data.OData.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ko\Microsoft.Data.OData.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ru\Microsoft.Data.OData.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\de\Microsoft.Data.Services.Client.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\es\Microsoft.Data.Services.Client.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\fr\Microsoft.Data.Services.Client.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\it\Microsoft.Data.Services.Client.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ja\Microsoft.Data.Services.Client.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ko\Microsoft.Data.Services.Client.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ru\Microsoft.Data.Services.Client.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\de\System.Spatial.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\es\System.Spatial.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\fr\System.Spatial.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\it\System.Spatial.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ja\System.Spatial.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ko\System.Spatial.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\ru\System.Spatial.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hans\System.Spatial.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\zh-Hant\System.Spatial.resources.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Common.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Entities.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\MISA.BL.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\MISA.DL.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Common.pdb
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\Entities.pdb
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\MISA.BL.pdb
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\bin\Debug\netcoreapp3.1\MISA.DL.pdb
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\obj\Debug\netcoreapp3.1\MISA.CukCuk.csprojAssemblyReference.cache
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\obj\Debug\netcoreapp3.1\MISA.CukCuk.AssemblyInfoInputs.cache
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\obj\Debug\netcoreapp3.1\MISA.CukCuk.AssemblyInfo.cs
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\obj\Debug\netcoreapp3.1\MISA.CukCuk.MvcApplicationPartsAssemblyInfo.cache
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\obj\Debug\netcoreapp3.1\MISA.CukCuk.RazorTargetAssemblyInfo.cache
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\obj\Debug\netcoreapp3.1\MISA.CukCuk.csproj.CopyComplete
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\obj\Debug\netcoreapp3.1\staticwebassets\MISA.CukCuk.StaticWebAssets.Manifest.cache
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\obj\Debug\netcoreapp3.1\staticwebassets\MISA.CukCuk.StaticWebAssets.xml
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\obj\Debug\netcoreapp3.1\MISA.CukCuk.dll
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\obj\Debug\netcoreapp3.1\MISA.CukCuk.pdb
+D:\Desktop\PK_Cuk\repos\MISA.CukCuk.vn\obj\Debug\netcoreapp3.1\MISA.CukCuk.genruntimeconfig.cache

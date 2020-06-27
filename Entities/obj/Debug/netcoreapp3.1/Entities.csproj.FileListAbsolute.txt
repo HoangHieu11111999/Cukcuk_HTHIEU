@@ -1,0 +1,8 @@
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\Entities\obj\Debug\netcoreapp3.1\Entities.csprojAssemblyReference.cache
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Users\pc\OneDrive\Máy tính\PK_Cuk\repos\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
